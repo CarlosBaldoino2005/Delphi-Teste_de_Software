@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Test\Win32\Debug\AulaBaseTest.exe" total="3" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2021-07-18" time="19.066">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="AulaBaseTest.exe" executed="true" result="Success" success="True" time="19.066" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uStringUtilsTest" executed="true" result="Success" success="True" time="19.066" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TStringUtilsTest" executed="True" result="Success" success="True" time="19.066" >
+                <results>
+                  <test-case name="TestConvertStringParaNumeros.ApenasNumeros" executed="True" result="Success" success="True" time="19.050" asserts="0" />
+                  <test-case name="TestConvertStringParaNumeros.LetrasMinusculas" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestConvertStringParaNumeros.CaracteresEspeciais" executed="True" result="Success" success="True" time="0.001" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>

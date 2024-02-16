@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no"?>
+<report>
+  <stats>
+    <packages value="12"/>
+    <classes value="12"/>
+    <methods value="55"/>
+    <srcfiles value="12"/>
+    <srclines value="247"/>
+    <totallines value="247"/>
+    <coveredlines value="243"/>
+    <coveredpercent value="98"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="100%   (12/12)"/>
+      <coverage type="method, %" value="100%   (55/55)"/>
+      <coverage type="block, %" value="98%   (243/247)"/>
+      <coverage type="line, %" value="98%   (243/247)"/>
+      <package name="Model.Components.Factory">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (2/2)"/>
+        <coverage type="block, %" value="100%   (8/8)"/>
+        <coverage type="line, %" value="100%   (8/8)"/>
+        <srcfile name="Model.Components.Factory.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (2/2)"/>
+          <coverage type="block, %" value="100%   (8/8)"/>
+          <coverage type="line, %" value="100%   (8/8)"/>
+          <class name="TModelComponents">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (2/2)"/>
+            <coverage type="block, %" value="100%   (8/8)"/>
+            <coverage type="line, %" value="100%   (8/8)"/>
+            <method name="Connections">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.DAO.Factory">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (3/3)"/>
+        <coverage type="block, %" value="100%   (11/11)"/>
+        <coverage type="line, %" value="100%   (11/11)"/>
+        <srcfile name="Model.DAO.Factory.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (3/3)"/>
+          <coverage type="block, %" value="100%   (11/11)"/>
+          <coverage type="line, %" value="100%   (11/11)"/>
+          <class name="TModelDAOFactory">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (3/3)"/>
+            <coverage type="block, %" value="100%   (11/11)"/>
+            <coverage type="line, %" value="100%   (11/11)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="NotaFiscalDAO">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Components.Connections.Factory">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (2/2)"/>
+        <coverage type="block, %" value="100%   (8/8)"/>
+        <coverage type="line, %" value="100%   (8/8)"/>
+        <srcfile name="Model.Components.Connections.Factory.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (2/2)"/>
+          <coverage type="block, %" value="100%   (8/8)"/>
+          <coverage type="line, %" value="100%   (8/8)"/>
+          <class name="TModelComponentsConnectionsFactory">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (2/2)"/>
+            <coverage type="block, %" value="100%   (8/8)"/>
+            <coverage type="line, %" value="100%   (8/8)"/>
+            <method name="Connections">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe.Command.EnviarNFe">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (3/3)"/>
+        <coverage type="block, %" value="100%   (10/10)"/>
+        <coverage type="line, %" value="100%   (10/10)"/>
+        <srcfile name="Model.Services.NFe.Command.EnviarNFe.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (3/3)"/>
+          <coverage type="block, %" value="100%   (10/10)"/>
+          <coverage type="line, %" value="100%   (10/10)"/>
+          <class name="TModelServicesNFeCommandEnviarNFe">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (3/3)"/>
+            <coverage type="block, %" value="100%   (10/10)"/>
+            <coverage type="line, %" value="100%   (10/10)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Execute">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe.Command.Ide">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (3/3)"/>
+        <coverage type="block, %" value="100%   (11/11)"/>
+        <coverage type="line, %" value="100%   (11/11)"/>
+        <srcfile name="Model.Services.NFe.Command.Ide.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (3/3)"/>
+          <coverage type="block, %" value="100%   (11/11)"/>
+          <coverage type="line, %" value="100%   (11/11)"/>
+          <class name="TModelServicesNFeCommandIde">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (3/3)"/>
+            <coverage type="block, %" value="100%   (11/11)"/>
+            <coverage type="line, %" value="100%   (11/11)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Execute">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (12/12)"/>
+        <coverage type="block, %" value="100%   (54/54)"/>
+        <coverage type="line, %" value="100%   (54/54)"/>
+        <srcfile name="Model.Services.NFe.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (12/12)"/>
+          <coverage type="block, %" value="100%   (54/54)"/>
+          <coverage type="line, %" value="100%   (54/54)"/>
+          <class name="TModelServicesNFe">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (12/12)"/>
+            <coverage type="block, %" value="100%   (54/54)"/>
+            <coverage type="line, %" value="100%   (54/54)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="End">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="NumeroNota">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="AddObserver">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Clear">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="AddNotifyMethod">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="DAO">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="Enviar">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="Notify">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+            <method name="Component">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (6/6)"/>
+              <coverage type="line, %" value="100%   (6/6)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe.Command.Emitente">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (3/3)"/>
+        <coverage type="block, %" value="100%   (10/10)"/>
+        <coverage type="line, %" value="100%   (10/10)"/>
+        <srcfile name="Model.Services.NFe.Command.Emitente.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (3/3)"/>
+          <coverage type="block, %" value="100%   (10/10)"/>
+          <coverage type="line, %" value="100%   (10/10)"/>
+          <class name="TModelServicesNFeCommandEmitente">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (3/3)"/>
+            <coverage type="block, %" value="100%   (10/10)"/>
+            <coverage type="line, %" value="100%   (10/10)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Execute">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.Factory">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (2/2)"/>
+        <coverage type="block, %" value="100%   (10/10)"/>
+        <coverage type="line, %" value="100%   (10/10)"/>
+        <srcfile name="Model.Services.Factory.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (2/2)"/>
+          <coverage type="block, %" value="100%   (10/10)"/>
+          <coverage type="line, %" value="100%   (10/10)"/>
+          <class name="TModelServicesFactory">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (2/2)"/>
+            <coverage type="block, %" value="100%   (10/10)"/>
+            <coverage type="line, %" value="100%   (10/10)"/>
+            <method name="NFe">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe.Observer.AtualizarNota">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (3/3)"/>
+        <coverage type="block, %" value="100%   (10/10)"/>
+        <coverage type="line, %" value="100%   (10/10)"/>
+        <srcfile name="Model.Services.NFe.Observer.AtualizarNota.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (3/3)"/>
+          <coverage type="block, %" value="100%   (10/10)"/>
+          <coverage type="line, %" value="100%   (10/10)"/>
+          <class name="TModelServicesNFeObserverAtualizarNota">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (3/3)"/>
+            <coverage type="block, %" value="100%   (10/10)"/>
+            <coverage type="line, %" value="100%   (10/10)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Update">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Services.NFe.Invoker">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (5/5)"/>
+        <coverage type="block, %" value="100%   (18/18)"/>
+        <coverage type="line, %" value="100%   (18/18)"/>
+        <srcfile name="Model.Services.NFe.Invoker.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (5/5)"/>
+          <coverage type="block, %" value="100%   (18/18)"/>
+          <coverage type="line, %" value="100%   (18/18)"/>
+          <class name="TModelServicesNFeInvoker">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (5/5)"/>
+            <coverage type="block, %" value="100%   (18/18)"/>
+            <coverage type="line, %" value="100%   (18/18)"/>
+            <method name="create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Execute">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="AddComand">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Entities.NotaFiscal">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (7/7)"/>
+        <coverage type="block, %" value="100%   (49/49)"/>
+        <coverage type="line, %" value="100%   (49/49)"/>
+        <srcfile name="Model.Entities.NotaFiscal.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (7/7)"/>
+          <coverage type="block, %" value="100%   (49/49)"/>
+          <coverage type="line, %" value="100%   (49/49)"/>
+          <class name="TModelEntitiesNotaFiscal">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (7/7)"/>
+            <coverage type="block, %" value="100%   (49/49)"/>
+            <coverage type="line, %" value="100%   (49/49)"/>
+            <method name="CNPJDestinatario">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="Protocolo">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="CNPJEmitente">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="Numero">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="Id">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="ChaveEletronica">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+            <method name="ValorTotal">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (7/7)"/>
+              <coverage type="line, %" value="100%   (7/7)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="Model.Components.Connections.Firedac">
+        <coverage type="class, %" value="100%   (1/1)"/>
+        <coverage type="method, %" value="100%   (10/10)"/>
+        <coverage type="block, %" value="92%   (44/48)"/>
+        <coverage type="line, %" value="92%   (44/48)"/>
+        <srcfile name="Model.Components.Connections.Firedac.pas">
+          <coverage type="class, %" value="100%   (1/1)"/>
+          <coverage type="method, %" value="100%   (10/10)"/>
+          <coverage type="block, %" value="92%   (44/48)"/>
+          <coverage type="line, %" value="92%   (44/48)"/>
+          <class name="TModelComponentsConnectionsFiredac">
+            <coverage type="class, %" value="100%   (1/1)"/>
+            <coverage type="method, %" value="100%   (10/10)"/>
+            <coverage type="block, %" value="92%   (44/48)"/>
+            <coverage type="line, %" value="92%   (44/48)"/>
+            <method name="SQLClear">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="New">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="Active">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Create">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (9/9)"/>
+              <coverage type="line, %" value="100%   (9/9)"/>
+            </method>
+            <method name="Open">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="DataSet">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (3/3)"/>
+              <coverage type="line, %" value="100%   (3/3)"/>
+            </method>
+            <method name="ExecSQL">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="SQL">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (4/4)"/>
+              <coverage type="line, %" value="100%   (4/4)"/>
+            </method>
+            <method name="Destroy">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="100%   (5/5)"/>
+              <coverage type="line, %" value="100%   (5/5)"/>
+            </method>
+            <method name="AddParam">
+              <coverage type="method, %" value="100%   (1/1)"/>
+              <coverage type="block, %" value="50%   (4/8)"/>
+              <coverage type="line, %" value="50%   (4/8)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>

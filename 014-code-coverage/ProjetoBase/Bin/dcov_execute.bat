@@ -1,0 +1,1 @@
+"CodeCoverage.exe" -e "FormacaoERPTest.exe" -m "FormacaoERPTest.map" -uf dcov_units.lst -spf dcov_paths.lst -od ".\report" -html -xml -lt

@@ -1,0 +1,48 @@
+unit Model.Services.NFe.Observer.AtualizarNota;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces,
+  System.SysUtils;
+
+type TModelServicesNFeObserverAtualizarNota = class(TInterfacedObject, iModelServicesNFeObserver)
+
+  private
+    [Weak]
+    FParent: iModelServicesNFe;
+
+  protected
+    function Update(ChaveEletronica, Protocolo: String): iModelServicesNFeObserver;
+
+  public
+    constructor create(Parent: iModelServicesNFe);
+    class function New(Parent: iModelServicesNFe): iModelServicesNFeObserver;
+
+end;
+
+implementation
+
+{ TModelServicesNFeObserverAtualizarNota }
+
+constructor TModelServicesNFeObserverAtualizarNota.create(Parent: iModelServicesNFe);
+begin
+  FParent := Parent;
+end;
+
+class function TModelServicesNFeObserverAtualizarNota.New(Parent: iModelServicesNFe): iModelServicesNFeObserver;
+begin
+  result := Self.create(Parent);
+end;
+
+function TModelServicesNFeObserverAtualizarNota.Update(ChaveEletronica, Protocolo: String): iModelServicesNFeObserver;
+begin
+  result := Self;
+  FParent.DAO.This
+    .ChaveEletronica(ChaveEletronica)
+    .Protocolo(Protocolo);
+
+  FParent.DAO.Update;
+end;
+
+end.

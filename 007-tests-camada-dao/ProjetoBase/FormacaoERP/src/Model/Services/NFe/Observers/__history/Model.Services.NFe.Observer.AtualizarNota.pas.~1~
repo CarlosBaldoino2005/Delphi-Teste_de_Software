@@ -1,0 +1,24 @@
+unit Model.Services.NFe.Observer.AtualizarNota;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces,
+  System.SysUtils;
+
+type TModelServicesNFeObserverAtualizarNota = class(TInterfacedObject, iModelServicesNFeObserver)
+
+  private
+    FParent: iModelServicesNFe;
+
+  protected
+    function Update(ChaveEletronica, Protocolo: String): iModelServicesNFeObserver;
+
+  public
+    constructor create()
+
+end;
+
+implementation
+
+end.

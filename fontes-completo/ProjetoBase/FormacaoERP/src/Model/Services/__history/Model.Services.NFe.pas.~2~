@@ -1,0 +1,11 @@
+unit Model.Services.NFe;
+
+interface
+
+type TModelServicesNFe = class
+
+end;
+
+implementation
+
+end.

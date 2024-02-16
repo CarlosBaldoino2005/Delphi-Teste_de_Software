@@ -1,0 +1,48 @@
+unit Model.Services.NFe.Commands.Destinatario.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Services.NFe,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Command.Destinatario,
+  System.SysUtils;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandsDestinatarioTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandsDestinatarioTest }
+
+procedure TModelServicesNFeCommandsDestinatarioTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandDestinatario.New(FNFe);
+end;
+
+procedure TModelServicesNFeCommandsDestinatarioTest.TestCommand;
+begin
+  FNFe.NumeroNota('1');
+
+  FCommand.Execute;
+
+  Assert.AreEqual('42733782000118', FNFe.Component.DestinatarioCNPJ);
+end;
+
+end.
+

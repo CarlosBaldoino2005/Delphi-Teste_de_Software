@@ -1,0 +1,48 @@
+unit Model.Services.NFe.Command.EnviarNFe.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Services.NFe,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Component.ACBr,
+  Model.Services.NFe.Command.EnviarNFe,
+  MockEverything;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandEnviarNFeTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [Test]
+    procedure CommandEnviarNFe;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandEnviarNFeTest }
+
+procedure TModelServicesNFeCommandEnviarNFeTest.CommandEnviarNFe;
+begin
+
+  FCommand.Execute;
+
+  Assert.IsEmpty(FNFe.Component.Protocolo);
+  Assert.IsEmpty(FNFe.Component.ChaveEletronica);
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandEnviarNFe.New(FNFe);
+end;
+
+end.

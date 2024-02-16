@@ -1,0 +1,48 @@
+unit Model.Services.NFe.Component.ACBr;
+
+interface
+
+uses
+  System.Classes,
+  System.SysUtils;
+
+type TModelServicesNFeComponentACBr = class(TComponent)
+  private
+    FEmitenteCNPJ: String;
+    FDestinatarioCNPJ: String;
+    FValorTotal: Double;
+    FNumeroNota: String;
+    FProtocolo: String;
+    FChaveEletronica: string;
+
+  public
+    property NumeroNota: String read FNumeroNota write FNumeroNota;
+    property EmitenteCNPJ: String read FEmitenteCNPJ write FEmitenteCNPJ;
+    property DestinatarioCNPJ: String read FDestinatarioCNPJ write FDestinatarioCNPJ;
+    property ValorTotal: Double read FValorTotal write FValorTotal;
+
+    property ChaveEletronica: String read FChaveEletronica;
+    property Protocolo: String read FProtocolo;
+
+    procedure Clear;
+    procedure GerarNFe;
+end;
+
+implementation
+
+{ TModelServicesNFeComponentACBr }
+
+procedure TModelServicesNFeComponentACBr.Clear;
+begin
+//
+end;
+
+procedure TModelServicesNFeComponentACBr.GerarNFe;
+begin
+  // Finge que manda pra Sefaz e gera os números abaixo
+  FProtocolo := Random(10000).ToString.PadLeft(20, '0');
+  FChaveEletronica := Random(100000000).ToString.PadLeft(44, '0');
+end;
+
+end.
+

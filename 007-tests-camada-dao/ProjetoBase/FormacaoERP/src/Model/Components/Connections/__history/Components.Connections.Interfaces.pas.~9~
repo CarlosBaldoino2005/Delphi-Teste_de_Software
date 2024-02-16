@@ -1,0 +1,25 @@
+unit Components.Connections.Interfaces;
+
+interface
+
+uses
+  Data.DB,
+  System.Classes;
+
+type
+  iComponentsConnections = interface
+    ['{40D3E554-99A1-4001-83DF-D7E8BBB85405}']
+    function Active ( aValue : Boolean ) : iComponentsConnections;
+    function AddParam ( aParam : String; aValue : Variant ) : iComponentsConnections; overload;
+    function AddParam ( aParam : String; aValue : TPersistent ) : iComponentsConnections; overload;
+    function DataSet : TDataSet;
+    function ExecSQL : iComponentsConnections;
+    function Open : iComponentsConnections;
+    function SQL ( aValue : String ) : iComponentsConnections;
+    function SQLClear : iComponentsConnections;
+  end;
+
+
+implementation
+
+end.

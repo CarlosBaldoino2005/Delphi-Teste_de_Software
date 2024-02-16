@@ -1,0 +1,16 @@
+unit Model.Interfaces;
+
+interface
+
+uses
+  Model.Services.Interfaces;
+
+type
+  IModel = interface
+    ['{9F4CE1BE-C27A-4DAC-8409-3A7BCC0A9EEE}']
+    function Services: IServices;
+  end;
+
+implementation
+
+end.

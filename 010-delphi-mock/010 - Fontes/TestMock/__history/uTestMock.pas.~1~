@@ -1,0 +1,19 @@
+unit uTestMock;
+
+interface
+
+uses
+  DUnitX.TestFramework;
+
+type
+  [TestFixture]
+  TTestMock = class
+  public
+  end;
+
+implementation
+
+initialization
+  TDUnitX.RegisterTestFixture(TTestMock);
+
+end.

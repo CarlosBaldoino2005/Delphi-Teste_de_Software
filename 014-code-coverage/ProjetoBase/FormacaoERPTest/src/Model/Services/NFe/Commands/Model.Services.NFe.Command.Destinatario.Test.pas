@@ -1,0 +1,71 @@
+unit Model.Services.NFe.Command.Destinatario.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.Destinatario,
+  Model.DAO.Interfaces,
+  Model.Entities.NotaFiscal,
+  Delphi.Mocks,
+  System.SysUtils;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandDestinatarioTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+    FNotaFiscal: TModelEntitiesNotaFiscal;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [TearDown]
+    procedure TearDown;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+implementation
+
+uses
+  System.Rtti;
+
+{ TModelServicesNFeCommandDestinatarioTest }
+
+procedure TModelServicesNFeCommandDestinatarioTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandDestinatario.New(FNFe);
+  FNotaFiscal := TModelEntitiesNotaFiscal.Create;
+end;
+
+procedure TModelServicesNFeCommandDestinatarioTest.TearDown;
+begin
+  FNotaFiscal.Free;
+end;
+
+procedure TModelServicesNFeCommandDestinatarioTest.TestCommand;
+var
+  mock: TMock<iModelDAOEntity<TModelEntitiesNotaFiscal>>;
+begin
+  FNotaFiscal.CNPJDestinatario('123456');
+  mock := TMock<iModelDAOEntity<TModelEntitiesNotaFiscal>>.create;
+  mock.Setup
+    .WillReturn(TValue.From<TModelEntitiesNotaFiscal>(FNotaFiscal))
+    .When.This;
+
+  FNFe.DAO(mock);
+
+  FCommand.Execute;
+
+  Assert.AreEqual('123456', FNFe.Component.DestinatarioCNPJ);
+end;
+
+end.

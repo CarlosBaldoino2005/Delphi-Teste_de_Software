@@ -1,0 +1,34 @@
+unit Controller;
+
+interface
+
+uses
+  Controller.Interfaces,
+  Model.Interfaces,
+  Model;
+
+type TController = class(TInterfacedObject, IController)
+
+  protected
+    function Model: IModel;
+
+  public
+    class function New: IController;
+
+end;
+
+implementation
+
+{ TController }
+
+class function TController.New: IController;
+begin
+  result := Self.Create;
+end;
+
+function TController.Model: IModel;
+begin
+  result := TModel.New;
+end;
+
+end.

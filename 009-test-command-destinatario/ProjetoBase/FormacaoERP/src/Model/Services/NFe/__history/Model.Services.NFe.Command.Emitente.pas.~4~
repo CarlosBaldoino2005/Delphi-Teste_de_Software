@@ -1,0 +1,40 @@
+unit Model.Services.NFe.Command.Emitente;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces;
+
+type TModelServicesNFeCommandEmitente = class(TInterfacedObject, iModelServicesNFeCommand)
+
+  private
+    FParent: iModelServicesNFe;
+
+  protected
+    function Execute: iModelServicesNFeCommand;
+
+  public
+    constructor create(Parent: iModelServicesNFe);
+    class function New(Parent: iModelServicesNFe): iModelServicesNFeCommand;
+end;
+
+implementation
+
+{ TModelServicesNFeCommandEmitente }
+
+constructor TModelServicesNFeCommandEmitente.create(Parent: iModelServicesNFe);
+begin
+  FParent := Parent;
+end;
+
+function TModelServicesNFeCommandEmitente.Execute: iModelServicesNFeCommand;
+begin
+  FParent.Component.EmitenteCNPJ := FParent.NotaFiscal.CNPJEmitente;
+end;
+
+class function TModelServicesNFeCommandEmitente.New(Parent: iModelServicesNFe): iModelServicesNFeCommand;
+begin
+  result := Self.Create(Parent);
+end;
+
+end.

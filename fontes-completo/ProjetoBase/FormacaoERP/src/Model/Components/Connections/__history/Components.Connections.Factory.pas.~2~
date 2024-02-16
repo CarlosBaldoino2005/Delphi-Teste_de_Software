@@ -1,0 +1,38 @@
+unit Components.Connections.Factory;
+
+interface
+
+uses
+  Components.Connections.Interfaces,
+  Components.Connections.Firedac;
+
+type TComponentsConnectionsFactory = class(TInterfacedObject, iComponentsConnectionsFactory)
+
+  private
+    FConnection: iModelComponentsConnections;
+
+  protected
+    function Connections: iModelComponentsConnections;
+
+  public
+    class function New: iComponentsConnectionsFactory;
+
+end;
+
+implementation
+
+{ TComponentsConnectionsFactory }
+
+function TComponentsConnectionsFactory.Connections: iModelComponentsConnections;
+begin
+  if not Assigned(FConnection) then
+    FConnection := TComponentsConnectionsFiredac.New;
+  result := FConnection;
+end;
+
+class function TComponentsConnectionsFactory.New: iComponentsConnectionsFactory;
+begin
+  Result := Self.Create;
+end;
+
+end.

@@ -1,0 +1,102 @@
+unit Entities.NotaFiscal;
+
+interface
+
+type TEntitiesNotaFiscal = class
+
+  private
+    FId: string;
+    FNumero: string;
+    FChaveEletronica: string;
+    FValorTotal: Double;
+    FCNPJEmitente: string;
+    FCNPJDestinatario: String;
+
+  public
+    function Id(Value: String): TEntitiesNotaFiscal; overload;
+    function Numero(Value: String): TEntitiesNotaFiscal; overload;
+    function ChaveEletronica(Value: String): TEntitiesNotaFiscal; overload;
+    function CNPJEmitente(Value: String): TEntitiesNotaFiscal; overload;
+    function CNPJDestinatario(Value: String): TEntitiesNotaFiscal; overload;
+    function ValorTotal(Value: Double): TEntitiesNotaFiscal; overload;
+
+    function Id: String; overload;
+    function Numero: String; overload;
+    function ChaveEletronica: String; overload;
+    function CNPJEmitente: String; overload;
+    function CNPJDestinatario: String; overload;
+    function ValorTotal: Double; overload;
+
+end;
+
+implementation
+
+{ TEntitiesNotaFiscal }
+
+function TEntitiesNotaFiscal.ChaveEletronica(Value: String): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FChaveEletronica := Value;
+end;
+
+function TEntitiesNotaFiscal.CNPJDestinatario(Value: String): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FCNPJDestinatario := Value;
+end;
+
+function TEntitiesNotaFiscal.CNPJEmitente(Value: String): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FCNPJEmitente := Value;
+end;
+
+function TEntitiesNotaFiscal.Id(Value: String): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FId := Value;
+end;
+
+function TEntitiesNotaFiscal.Numero(Value: String): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FNumero := Value;
+end;
+
+function TEntitiesNotaFiscal.ValorTotal(Value: Double): TEntitiesNotaFiscal;
+begin
+  Result := Self;
+  FValorTotal := Value;
+end;
+
+function TEntitiesNotaFiscal.ChaveEletronica: String;
+begin
+  result := FChaveEletronica;
+end;
+
+function TEntitiesNotaFiscal.CNPJDestinatario: String;
+begin
+  result := FCNPJDestinatario;
+end;
+
+function TEntitiesNotaFiscal.CNPJEmitente: String;
+begin
+  result := FCNPJEmitente;
+end;
+
+function TEntitiesNotaFiscal.Id: String;
+begin
+  result := FId;
+end;
+
+function TEntitiesNotaFiscal.Numero: String;
+begin
+  result := FNumero;
+end;
+
+function TEntitiesNotaFiscal.ValorTotal: Double;
+begin
+  result := FValorTotal;
+end;
+
+end.

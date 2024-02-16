@@ -1,0 +1,23 @@
+unit Model.Services;
+
+interface
+
+uses
+  Model.Services.Interfaces;
+
+type TModelServices = class(TInterfacedObject, IServices)
+
+  public
+    class function New: IServices;
+end;
+
+implementation
+
+{ TModelServices }
+
+class function TModelServices.New: IServices;
+begin
+  result := Self.Create;
+end;
+
+end.

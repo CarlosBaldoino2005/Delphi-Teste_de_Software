@@ -1,0 +1,75 @@
+unit uStringUtilsTest;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  uStringUtils;
+
+type
+  [TestFixture]
+  TStringUtilsTest = class
+  private
+    FUtils: TStringUtils;
+    FResultado: String;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [TearDown]
+    procedure OnAfter;
+
+    [Test]
+    procedure TestApenasNumeros;
+
+    [Test]
+    procedure TestComLetrasMinusculas;
+
+    [Test]
+    procedure TestComCaracteresEspeciais;
+
+    [Test]
+    procedure TestNoAssert;
+
+  end;
+
+implementation
+
+{ TStringUtilsTest }
+
+procedure TStringUtilsTest.OnAfter;
+begin
+  FUtils.Free;
+end;
+
+procedure TStringUtilsTest.Setup;
+begin
+  FUtils := TStringUtils.Create;
+  FResultado := '';
+end;
+
+procedure TStringUtilsTest.TestApenasNumeros;
+begin
+  FResultado := Futils.ApenasNumeros('ABC123');
+  Assert.AreEqual('123', FResultado);
+end;
+
+procedure TStringUtilsTest.TestComCaracteresEspeciais;
+begin
+  FResultado := Futils.ApenasNumeros('@BC123');
+  Assert.AreEqual('123', FResultado);
+end;
+
+procedure TStringUtilsTest.TestComLetrasMinusculas;
+begin
+  FResultado := Futils.ApenasNumeros('abc123');
+  Assert.AreEqual('123', FResultado);
+end;
+
+procedure TStringUtilsTest.TestNoAssert;
+begin
+  Assert.IsTrue(True);
+end;
+
+end.

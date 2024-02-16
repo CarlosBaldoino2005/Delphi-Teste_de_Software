@@ -1,0 +1,77 @@
+program FormacaoERPTest;
+
+{$IFNDEF TESTINSIGHT}
+{$APPTYPE CONSOLE}
+{$ENDIF}
+{$STRONGLINKTYPES ON}
+uses
+  System.SysUtils,
+  {$IFDEF TESTINSIGHT}
+  TestInsight.DUnitX,
+  {$ELSE}
+  DUnitX.Loggers.Console,
+  {$ENDIF }
+  DUnitX.TestFramework,
+  Model.DAO.NotaFiscal.Test in 'src\Model\DAO\Model.DAO.NotaFiscal.Test.pas',
+  Model.Services.NFe.Commands.Emitente.Test in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Test.pas',
+  Model.Services.NFe.Commands.Destinatario.Test in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Test.pas',
+  Model.Services.NFe.Commands.Ide.Test in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Test.pas',
+  Model.Services.NFe.Observer.AtualizaNota.Test in 'src\Services\NFe\Observers\Model.Services.NFe.Observer.AtualizaNota.Test.pas',
+  Model.Services.NFe.Commands.Destinatario.Mock in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Mock.pas',
+  Model.Services.NFe.Commands.Emitente.Mock in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Mock.pas',
+  Model.Services.NFe.Commands.Ide.Mock in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Mock.pas',
+  Model.Services.NFe.Commands.EnviarNFe.Test in 'src\Services\NFe\Commands\Model.Services.NFe.Commands.EnviarNFe.Test.pas',
+  Model.Services.NFe.Test in 'src\Services\NFe\Model.Services.NFe.Test.pas';
+
+var
+  runner: ITestRunner;
+  results: IRunResults;
+  logger: ITestLogger;
+  nunitLogger : ITestLogger;
+begin
+  ReportMemoryLeaksOnShutdown := True;
+
+{$IFDEF TESTINSIGHT}
+  TestInsight.DUnitX.RunRegisteredTests;
+{$ELSE}
+  try
+    IsConsole := False;
+    //Check command line options, will exit if invalid
+    TDUnitX.CheckCommandLine;
+    //Create the test runner
+    runner := TDUnitX.CreateRunner;
+    //Tell the runner to use RTTI to find Fixtures
+    runner.UseRTTI := True;
+    //When true, Assertions must be made during tests;
+    runner.FailsOnNoAsserts := False;
+
+    //tell the runner how we will log things
+    //Log to the console window if desired
+    if TDUnitX.Options.ConsoleMode <> TDunitXConsoleMode.Off then
+    begin
+      logger := TDUnitXConsoleLogger.Create(TDUnitX.Options.ConsoleMode = TDunitXConsoleMode.Quiet);
+      runner.AddLogger(logger);
+    end;
+    //Generate an NUnit compatible XML File
+//    nunitLogger := TDUnitXXMLNUnitFileLogger.Create(TDUnitX.Options.XMLOutputFile);
+//    runner.AddLogger(nunitLogger);
+
+    //Run tests
+    results := runner.Execute;
+    if not results.AllPassed then
+      System.ExitCode := EXIT_ERRORS;
+
+    {$IFNDEF CI}
+    //We don't want this happening when running under CI.
+    if TDUnitX.Options.ExitBehavior = TDUnitXExitBehavior.Pause then
+    begin
+      System.Write('Done.. press <Enter> key to quit.');
+      System.Readln;
+    end;
+    {$ENDIF}
+  except
+    on E: Exception do
+      System.Writeln(E.ClassName, ': ', E.Message);
+  end;
+{$ENDIF}
+end.

@@ -1,0 +1,47 @@
+unit Model.Services.NFe.Command.Enviar.NFe.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  System.SysUtils,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Component.ACBr,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.EnviarNFe,
+  Delphi.Mocks;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandEnviarNFeMock = class
+
+  private
+    FNFe: TMock<iModelServicesNFe>;
+    FComponent: TMock<TModelServicesNFeComponentACBr>;
+    FCommand: iModelServicesNFeCommand;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandEnviarNFeMock }
+
+procedure TModelServicesNFeCommandEnviarNFeMock.Setup;
+begin
+  FNFe := TMock<iModelServicesNFe>.Create;
+  FComponent := TMock<TModelServicesNFeComponentACBr>.Create;
+  FCommand := TModelServicesNFeCommandEnviarNFe.New(FNFe);
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeMock.TestCommand;
+begin
+
+end;
+
+end.

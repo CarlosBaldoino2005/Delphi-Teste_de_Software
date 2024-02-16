@@ -1,0 +1,37 @@
+unit Components;
+
+interface
+
+uses
+  Components.Interfaces,
+  Components.Connections.Interfaces,
+  Components.Connections;
+
+type TComponents = class(TInterfacedObject, iComponents)
+
+  private
+    FConnections: iComponentsConnectionsFactory;
+
+  protected
+    function Connections: iComponentsConnections;
+
+  public
+    class function New: iComponents;
+
+end;
+
+implementation
+
+{ TComponents }
+
+function TComponents.Connections: iComponentsConnections;
+begin
+
+end;
+
+class function TComponents.New: iComponents;
+begin
+
+end;
+
+end.

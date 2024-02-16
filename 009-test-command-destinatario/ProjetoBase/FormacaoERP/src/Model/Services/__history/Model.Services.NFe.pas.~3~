@@ -1,0 +1,23 @@
+unit Model.Services.NFe;
+
+interface
+
+uses
+  Model.Services.Interfaces;
+
+type TModelServicesNFe = class(TInterfacedObject, IModelServices)
+
+  public
+    class function New: IModelServices;
+end;
+
+implementation
+
+{ TModelServicesNFe }
+
+class function TModelServicesNFe.New: IModelServices;
+begin
+  result := Self.Create;
+end;
+
+end.

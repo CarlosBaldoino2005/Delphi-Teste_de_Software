@@ -1,0 +1,208 @@
+unit DAO.NotaFiscal;
+
+interface
+
+uses
+  DAO.Interfaces,
+  Components.Connections.Interfaces,
+  Data.DB,
+  Model.Entities.NotaFiscal,
+  System.SysUtils;
+
+type TDAONotaFiscal = class(TInterfacedObject, iDAOEntity<TModelEntitiesNotaFiscal>)
+
+  private
+    FConnection: iComponentsConnections;
+    FEntity: TModelEntitiesNotaFiscal;
+    FDataSource: TDataSource;
+
+    procedure ReadFromDataSet;
+  protected
+    function DataSet ( aValue : TDataSource ) : iDAOEntity<TModelEntitiesNotaFiscal>;  overload;
+    function DataSet : TDataSet; overload;
+    function Delete : iDAOEntity<TModelEntitiesNotaFiscal>;
+    function Get : iDAOEntity<TModelEntitiesNotaFiscal>; overload;
+    function Get ( aValue : Variant ) : iDAOEntity<TModelEntitiesNotaFiscal>; overload;
+    function Get ( aParam : String; aValue : Variant ) : iDAOEntity<TModelEntitiesNotaFiscal>; overload;
+    function Insert : iDAOEntity<TModelEntitiesNotaFiscal>;
+    function This : TModelEntitiesNotaFiscal;
+    function Update : iDAOEntity<TModelEntitiesNotaFiscal>;
+  public
+    constructor create(Connection: iComponentsConnections);
+    class function New(Connection: iComponentsConnections): iDAOEntity<TModelEntitiesNotaFiscal>;
+    destructor Destroy; override;
+end;
+
+implementation
+
+{ TDAONotaFiscal }
+
+constructor TDAONotaFiscal.create(Connection: iComponentsConnections);
+begin
+  FConnection := Connection;
+end;
+
+function TDAONotaFiscal.DataSet(aValue: TDataSource): iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  FDataSource := aValue;
+  FDataSource.DataSet := FConnection.DataSet;
+end;
+
+function TDAONotaFiscal.DataSet: TDataSet;
+begin
+  Result := FConnection.DataSet;
+end;
+
+function TDAONotaFiscal.Delete: iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  try
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('DELETE FROM NOTAFISCAL')
+      .SQL('WHERE ID = :ID')
+      .AddParam('ID', FEntity.Id)
+    .ExecSQL;
+  except on ex:exception do
+    raise Exception.Create('Erro ao Excluir Nota Fiscal: ' + ex.Message);
+  end;
+end;
+
+destructor TDAONotaFiscal.Destroy;
+begin
+  FEntity.Free;
+  inherited;
+end;
+
+function TDAONotaFiscal.Get: iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  try
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('SELECT * FROM NOTAFISCAL ')
+    .Open;
+  except on ex:exception do
+    raise Exception.Create('Erro ao Consultar Nota Fiscal: ' + ex.Message);
+  end;
+end;
+
+function TDAONotaFiscal.Get(aParam: String; aValue: Variant): iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  try
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('SELECT * FROM NOTAFISCAL WHERE ' + aParam + ' = ' + QuotedStr(aValue))
+    .Open;
+
+    ReadFromDataSet;
+  except on ex:exception do
+    raise Exception.Create('Erro ao Consultar Nota Fiscal: ' + ex.Message);
+  end;
+end;
+
+function TDAONotaFiscal.Get(aValue: Variant): iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  try
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('SELECT * FROM NOTAFISCAL WHERE ID = :ID' )
+      .AddParam('ID', aValue)
+    .Open;
+
+    ReadFromDataSet;
+  except on ex:exception do
+    raise Exception.Create('Erro ao Consultar Nota Fiscal: ' + ex.Message);
+  end;
+end;
+
+function TDAONotaFiscal.Insert: iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  Result := Self;
+  try
+    if This.CNPJEmitente.IsEmpty then
+      raise Exception.CreateFmt('CNPJ Emitente é obrigatório.', []);
+
+    FEntity.Id(TGUID.NewGuid.ToString.Replace('{', '').Replace('}', ''));
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('INSERT INTO NOTAFISCAL(ID, NUMERO, CHAVEELETRONICA, PROTOCOLO, CNPJEMITENTE, CNPJDESTINATARIO, VALORTOTAL)')
+      .SQL('VALUES(:ID, :NUMERO, :CHAVEELETRONICA, :PROTOCOLO, :CNPJEMITENTE, :CNPJDESTINATARIO, :VALORTOTAL)')
+      .AddParam('ID', FEntity.ID)
+      .AddParam('NUMERO', FEntity.Numero)
+      .AddParam('CHAVEELETRONICA', FEntity.ChaveEletronica)
+      .AddParam('PROTOCOLO', FEntity.Protocolo)
+      .AddParam('CNPJEMITENTE', FEntity.CNPJEmitente)
+      .AddParam('CNPJDESTINATARIO', FEntity.CNPJDestinatario)
+      .AddParam('VALORTOTAL', FEntity.ValorTotal)
+    .ExecSQL;
+  except
+    on ex:exception do
+    begin
+      FEntity.Id('');
+      raise Exception.Create('Erro ao inserir nota fiscal: ' + ex.Message);
+    end;
+  end;
+end;
+
+class function TDAONotaFiscal.New(Connection: iComponentsConnections): iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  result := Self.create(Connection);
+end;
+
+procedure TDAONotaFiscal.ReadFromDataSet;
+begin
+  This
+    .Id(DataSet.FieldByName('ID').AsString)
+    .Numero(DataSet.FieldByName('Numero').AsString)
+    .ChaveEletronica(DataSet.FieldByName('ChaveEletronica').AsString)
+    .Protocolo(DataSet.FieldByName('Protocolo').AsString)
+    .CNPJEmitente(DataSet.FieldByName('CNPJEmitente').AsString)
+    .CNPJDestinatario(DataSet.FieldByName('CNPJDestinatario').AsString)
+    .ValorTotal(DataSet.FieldByName('ValorTotal').AsFloat)
+end;
+
+function TDAONotaFiscal.This: TModelEntitiesNotaFiscal;
+begin
+  if not Assigned(FEntity) then
+    FEntity := TModelEntitiesNotaFiscal.Create;
+  result := FEntity;
+end;
+
+function TDAONotaFiscal.Update: iDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  result := Self;
+  try
+    FConnection
+      .Active(False)
+      .SQLClear
+      .SQL('UPDATE NOTAFISCAL SET ')
+      .SQL('NUMERO = :NUMERO, ')
+      .SQL('CHAVEELETRONICA = :CHAVEELETRONICA, ')
+      .SQL('PROTOCOLO = :PROTOCOLO, ')
+      .SQL('CNPJEMITENTE = :CNPJEMITENTE, ')
+      .SQL('CNPJDESTINATARIO = :CNPJDESTINATARIO, ')
+      .SQL('VALORTOTAL = :VALORTOTAL')
+      .SQL('WHERE ID = :ID')
+      .AddParam('NUMERO', FEntity.Numero)
+      .AddParam('CHAVEELETRONICA', FEntity.ChaveEletronica)
+      .AddParam('PROTOCOLO', FEntity.Protocolo)
+      .AddParam('CNPJEMITENTE', FEntity.CNPJEmitente)
+      .AddParam('CNPJDESTINATARIO', FEntity.CNPJDestinatario)
+      .AddParam('VALORTOTAL', FEntity.ValorTotal)
+      .AddParam('ID', FEntity.Id)
+    .ExecSQL;
+  except on ex:exception do
+    raise Exception.Create('Erro ao inserir nota fiscal: ' + ex.Message);
+  end;
+end;
+
+end.

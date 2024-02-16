@@ -1,0 +1,17 @@
+unit Model.Services.Interfaces;
+
+interface
+
+type
+  IModelServices = interface // IModelServicesGeneric
+    ['{DAD2E926-8072-4F6B-95E3-21A6F21A2BDF}']
+  end;
+
+  IServices = interface // IModelServices
+    ['{FAC91C4F-F687-4D30-AE8F-42501F6675BF}']
+    function NFe: IModelServices;
+  end;
+
+implementation
+
+end.

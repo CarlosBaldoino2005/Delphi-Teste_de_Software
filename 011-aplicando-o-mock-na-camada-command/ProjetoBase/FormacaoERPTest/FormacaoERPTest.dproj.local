@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/12 04:14:36.000.008,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 18:09:14.000.102,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 18:10:03.000.005,D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\src\Model\DAO\Model.DAO.NotaFiscal.Test.pas</Transaction>
+    <Transaction>2021/07/18 18:10:10.000.923,D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\FormacaoERPTest.dproj</Transaction>
+    <Transaction>2021/07/18 19:29:01.000.819,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 19:39:57.000.319,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 19:41:18.000.395,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Command.Destinatario.Test.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERPTest\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

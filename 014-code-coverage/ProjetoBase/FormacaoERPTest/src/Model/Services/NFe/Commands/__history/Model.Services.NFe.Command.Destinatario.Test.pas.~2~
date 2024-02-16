@@ -1,0 +1,42 @@
+unit Model.Services.NFe.Command.Destinatario.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.Destinatario,
+  System.SysUtils;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandDestinatarioTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    procedure TestCommand;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandDestinatarioTest }
+
+procedure TModelServicesNFeCommandDestinatarioTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandDestinatario.New(FNFe);
+end;
+
+procedure TModelServicesNFeCommandDestinatarioTest.TestCommand;
+begin
+
+end;
+
+end.

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5EF34028-E2EE-4FFD-A8C8-226F3CE06394}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Fontes\AulaBase.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\AulaBaseTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AulaBase">
+        <MSBuild Projects="Fontes\AulaBase.dproj"/>
+    </Target>
+    <Target Name="AulaBase:Clean">
+        <MSBuild Projects="Fontes\AulaBase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaBase:Make">
+        <MSBuild Projects="Fontes\AulaBase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AulaBaseTest">
+        <MSBuild Projects="Test\AulaBaseTest.dproj"/>
+    </Target>
+    <Target Name="AulaBaseTest:Clean">
+        <MSBuild Projects="Test\AulaBaseTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AulaBaseTest:Make">
+        <MSBuild Projects="Test\AulaBaseTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AulaBase;AulaBaseTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AulaBase:Clean;AulaBaseTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AulaBase:Make;AulaBaseTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,90 @@
+unit uACBr;
+
+interface
+
+uses
+  System.Classes,
+  System.SysUtils;
+
+type TACBr = class
+
+  private
+    FDestinatarioCNPJ: String;
+    FProtocolo: String;
+    FChaveEletronica: String;
+    FValorTotal: Double;
+    FEmitenteCNPJ: String;
+    FNumeroNota: String;
+
+    procedure SetChaveEletronica(const Value: String);
+    procedure SetDestinatarioCNPJ(const Value: String);
+    procedure SetEmitenteCNPJ(const Value: String);
+    procedure SetNumeroNota(const Value: String);
+    procedure SetProtocolo(const Value: String);
+    procedure SetValorTotal(const Value: Double);
+
+    procedure EnviarSefaz;
+  public
+    property NumeroNota: String read FNumeroNota write SetNumeroNota;
+    property EmitenteCNPJ: String read FEmitenteCNPJ write SetEmitenteCNPJ;
+    property DestinatarioCNPJ: String read FDestinatarioCNPJ write SetDestinatarioCNPJ;
+    property ValorTotal: Double read FValorTotal write SetValorTotal;
+
+    property ChaveEletronica: String read FChaveEletronica write SetChaveEletronica;
+    property Protocolo: String read FProtocolo write SetProtocolo;
+
+    procedure Clear;
+    procedure GerarNFe;
+
+end;
+
+implementation
+
+{ TACBr }
+
+procedure TACBr.Clear;
+begin
+
+end;
+
+procedure TACBr.EnviarSefaz;
+begin
+
+end;
+
+procedure TACBr.GerarNFe;
+begin
+
+end;
+
+procedure TACBr.SetChaveEletronica(const Value: String);
+begin
+
+end;
+
+procedure TACBr.SetDestinatarioCNPJ(const Value: String);
+begin
+
+end;
+
+procedure TACBr.SetEmitenteCNPJ(const Value: String);
+begin
+
+end;
+
+procedure TACBr.SetNumeroNota(const Value: String);
+begin
+
+end;
+
+procedure TACBr.SetProtocolo(const Value: String);
+begin
+
+end;
+
+procedure TACBr.SetValorTotal(const Value: Double);
+begin
+
+end;
+
+end.

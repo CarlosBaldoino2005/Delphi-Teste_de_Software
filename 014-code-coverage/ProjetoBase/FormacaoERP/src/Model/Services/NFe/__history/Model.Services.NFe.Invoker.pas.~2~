@@ -1,0 +1,57 @@
+unit Model.Services.NFe.Invoker;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces,
+  System.Generics.Collections;
+
+type TModelServicesNFeInvoker = class(TInterfacedObject, iModelServicesNFeInvoker)
+
+  private
+    FParent: iModelServicesNFe;
+    FList: TList<iModelServicesNFeCommand>;
+
+  protected
+    function AddComand(Value: iModelServicesNFeCommand): iModelServicesNFeInvoker;
+    function Execute: iModelServicesNFeInvoker;
+
+  public
+    constructor create(Parent: iModelServicesNFe);
+    class function New(Parent: iModelServicesNFe): iModelServicesNFeInvoker;
+    destructor Destroy; override;
+end;
+
+implementation
+
+{ TModelServicesNFeInvoker }
+
+function TModelServicesNFeInvoker.AddComand(Value: iModelServicesNFeCommand): iModelServicesNFeInvoker;
+begin
+  result := Self;
+  FList.Add(Value);
+end;
+
+constructor TModelServicesNFeInvoker.create(Parent: iModelServicesNFe);
+begin
+  FParent := Parent;
+  FList := TList<iModelServicesNFeCommand>.Create;
+end;
+
+destructor TModelServicesNFeInvoker.Destroy;
+begin
+  FList.Free;
+  inherited;
+end;
+
+function TModelServicesNFeInvoker.Execute: iModelServicesNFeInvoker;
+begin
+
+end;
+
+class function TModelServicesNFeInvoker.New(Parent: iModelServicesNFe): iModelServicesNFeInvoker;
+begin
+  result := Self.create(Parent);
+end;
+
+end.

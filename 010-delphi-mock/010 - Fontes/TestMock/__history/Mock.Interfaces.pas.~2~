@@ -1,0 +1,29 @@
+unit Mock.Interfaces;
+
+interface
+
+uses
+  Delphi.Mocks;
+
+type
+  iDAONotaFiscal = interface
+    ['{5C6B97D3-4910-44E8-900E-81AF88A9F9F7}']
+    function NumeroNota: string;
+  end;
+
+  iLog = interface
+    ['{CA771241-C401-4012-9E50-0A39F59199F9}']
+    procedure SaveLog(Content: String);
+  end;
+
+  iNFe = interface
+    ['{76CA9C99-748A-4D7D-8DE3-7DBB1FD860DC}']
+    function DAO(Value: iDAONotaFiscal): iNFe;
+    function Log(Value: iLog): iNFe;
+
+    function Emitir: String;
+  end;
+
+implementation
+
+end.

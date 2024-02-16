@@ -1,0 +1,17 @@
+﻿unit Components.Interfaces;
+
+interface
+
+uses
+  Components.Connections.Interfaces;
+
+type
+  iComponents = interface
+    ['{B15735D9-87A5-4801-BCFD-34751E00771F}']
+    function Connections: iComponentsConnections;
+  end;
+
+implementation
+
+end.
+

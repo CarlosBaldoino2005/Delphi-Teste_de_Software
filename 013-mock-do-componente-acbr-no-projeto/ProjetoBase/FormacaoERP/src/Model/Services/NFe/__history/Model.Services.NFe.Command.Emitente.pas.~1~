@@ -1,0 +1,31 @@
+unit Model.Services.NFe.Command.Emitente;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces;
+
+type TModelServicesNFeCommandEmitente = class(TInterfacedObject, iModelServicesNFeCommand)
+
+  protected
+    function Execute: iModelServicesNFeCommand;
+
+  public
+    class function New: iModelServicesNFeCommand;
+end;
+
+implementation
+
+{ TModelServicesNFeCommandEmitente }
+
+function TModelServicesNFeCommandEmitente.Execute: iModelServicesNFeCommand;
+begin
+
+end;
+
+class function TModelServicesNFeCommandEmitente.New: iModelServicesNFeCommand;
+begin
+  result := Self.Create;
+end;
+
+end.

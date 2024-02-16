@@ -1,0 +1,40 @@
+unit Model.Services.Factory;
+
+interface
+
+uses
+  Model.Services.Interfaces,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe;
+
+type TModelServicesFactory = class(TInterfacedObject, iModelServicesFactory)
+
+  private
+    FNFe: iModelServicesNFe;
+
+  protected
+    function NFe: iModelServicesNFe;
+
+  public
+    class function New: iModelServicesFactory;
+end;
+
+implementation
+
+{ TModelServicesFactory }
+
+class function TModelServicesFactory.New: iModelServicesFactory;
+begin
+  result := Self.Create;
+end;
+
+function TModelServicesFactory.NFe: iModelServicesNFe;
+begin
+  if not Assigned(FNFe) then
+  begin
+    FNFe := TModelServicesNFe.New;
+  end;
+  result := FNFe;
+end;
+
+end.

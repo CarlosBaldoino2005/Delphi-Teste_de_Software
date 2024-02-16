@@ -1,0 +1,15 @@
+program FormacaoERP;
+
+uses
+  Vcl.Forms,
+  FMain in 'src\View\FMain.pas' {Form1},
+  Model.Services.NFe in 'src\Model\Services\Model.Services.NFe.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

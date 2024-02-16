@@ -1,0 +1,22 @@
+unit Model.Services.Interfaces;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe;
+
+type
+  iModelServices = interface
+    ['{93EBAEA4-1932-4D8B-8236-A418998170E4}']
+    function NFe: iModelServicesNFe;
+  end;
+
+  iModelServicesFactory = interface
+    ['{3751EF86-AF53-4B1C-8495-D81D8F5DD66D}']
+    function Services: iModelServices;
+  end;
+
+implementation
+
+end.

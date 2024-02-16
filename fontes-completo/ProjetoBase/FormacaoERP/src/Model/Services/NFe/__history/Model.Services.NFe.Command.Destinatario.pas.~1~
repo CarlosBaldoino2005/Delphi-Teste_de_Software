@@ -1,0 +1,32 @@
+unit Model.Services.NFe.Command.Destinatario;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces;
+
+type TModelServicesNFeCommandDestinatario = class(TInterfacedObject, iModelServicesNFeCommand)
+
+  protected
+    function Execute: iModelServicesNFeCommand;
+
+  public
+    class function New: iModelServicesNFeCommand;
+end;
+
+implementation
+
+{ TModelServicesNFeCommandDestinatario }
+
+function TModelServicesNFeCommandDestinatario.Execute: iModelServicesNFeCommand;
+begin
+
+end;
+
+class function TModelServicesNFeCommandDestinatario.New: iModelServicesNFeCommand;
+begin
+  result := Self.Create;
+end;
+
+end.
+

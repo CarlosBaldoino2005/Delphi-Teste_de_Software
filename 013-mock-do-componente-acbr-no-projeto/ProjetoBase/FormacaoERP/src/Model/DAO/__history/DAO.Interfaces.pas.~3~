@@ -1,0 +1,29 @@
+unit DAO.Interfaces;
+
+interface
+
+uses
+  Data.DB;
+
+type
+  iDAOEntity<T> = interface
+    ['{D18B092C-BC20-488A-B326-F5CE51A5BB19}']
+    function DataSet ( aValue : TDataSource ) : iDAOEntity<T>; overload;
+    function DataSet : TDataSet; overload;
+    function Delete : iDAOEntity<T>;
+    function Get : iDAOEntity<T>; overload;
+    function Get ( aValue : Variant ) : iDAOEntity<T>; overload;
+    function Get ( aParam : String; aValue : Variant ) : iDAOEntity<T>; overload;
+    function Insert : iDAOEntity<T>;
+    function This : T;
+    function Update : iDAOEntity<T>;
+  end;
+
+  IDAOFactory = interface
+    ['{9E12D111-2E69-4613-8444-7FF00A8863C7}']
+//    function NotaFiscalDAO: iDAOEntity<TDAO>
+  end;
+
+implementation
+
+end.

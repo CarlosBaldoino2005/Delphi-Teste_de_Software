@@ -1,0 +1,46 @@
+unit DAO.Factory;
+
+interface
+
+uses
+  Components.Connections.Interfaces,
+  Model.DAO.Interfaces,
+  DAO.NotaFiscal,
+  Model.Entities.NotaFiscal;
+
+type TDAOFactory = class(TInterfacedObject, IModelDAOFactory)
+
+  private
+    FConnection: iComponentsConnections;
+    FNotaFiscalDAO: iModelDAOEntity<TModelEntitiesNotaFiscal>;
+
+  protected
+    function NotaFiscalDAO: iModelDAOEntity<TModelEntitiesNotaFiscal>;
+
+  public
+    constructor create(Connection: iComponentsConnections);
+    class function New(Connection: iComponentsConnections): IModelDAOFactory;
+end;
+
+implementation
+
+{ TDAOFactory }
+
+constructor TDAOFactory.create(Connection: iComponentsConnections);
+begin
+  FConnection := Connection;
+end;
+
+class function TDAOFactory.New(Connection: iComponentsConnections): IModelDAOFactory;
+begin
+  result := Self.create(Connection);
+end;
+
+function TDAOFactory.NotaFiscalDAO: iModelDAOEntity<TModelEntitiesNotaFiscal>;
+begin
+  if not Assigned(FNotaFiscalDAO) then
+    FNotaFiscalDAO := TDAONotaFiscal.New(FConnection);
+  result := FNotaFiscalDAO;
+end;
+
+end.

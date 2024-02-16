@@ -1,0 +1,57 @@
+unit Model.Services.NFe.Command.Enviar.NFe.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  System.SysUtils,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Component.ACBr,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.EnviarNFe,
+  MockEverything;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandEnviarNFeTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+
+    procedure GerarNFe;
+  public
+    [Setup]
+    procedure Setup;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandEnviarNFeTest }
+
+procedure TModelServicesNFeCommandEnviarNFeTest.GerarNFe;
+begin
+  FNFe.Component.ChaveEletronica := '123456';
+  FNFe.Component.Protocolo := '55';
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandEnviarNFe.New(FNFe);
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeTest.TestCommand;
+begin
+  TMockDetour.Get.Mock(TModelServicesNFeComponentACBr, 'GerarNFe', @GerarNFe);
+
+  FCommand.Execute;
+
+  Assert.AreEqual('123456', FNFe.Component.ChaveEletronica);
+  Assert.AreEqual('55', FNFe.Component.Protocolo);
+end;
+
+end.

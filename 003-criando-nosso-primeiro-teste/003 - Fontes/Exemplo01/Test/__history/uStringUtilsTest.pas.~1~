@@ -1,0 +1,19 @@
+unit uStringUtilsTest;
+
+interface
+
+uses
+  DUnitX.TestFramework;
+
+type
+  [TestFixture]
+  TStringUtilsTest = class
+  public
+  end;
+
+implementation
+
+initialization
+  TDUnitX.RegisterTestFixture(TStringUtilsTest);
+
+end.

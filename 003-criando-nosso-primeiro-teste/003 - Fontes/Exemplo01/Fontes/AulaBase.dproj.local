@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/12 04:14:36.000.008,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:41:23.713,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:44:46.688,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\FMain.dfm=D:\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/07/18 15:44:46.688,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\FMain.pas=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:44:50.880,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\AulaBase.dproj=D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/18 15:48:13.002,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:50:00.811,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\uStringUtils.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:53:02.940,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\uStringUtils.pas=</Transaction>
+    <Transaction>2021/07/18 15:54:49.744,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 15:56:15.287,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\uStringUtils.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Unit1.pas</Transaction>
+    <Transaction>2021/07/18 16:00:48.218,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Fontes\FMain.dfm=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\FMain.dfm</Transaction>
+    <Transaction>2021/07/18 16:00:48.218,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Fontes\FMain.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\FMain.pas</Transaction>
+    <Transaction>2021/07/18 16:01:04.299,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Fontes\AulaBase.dproj=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\AulaBase.dproj</Transaction>
+    <Transaction>2021/07/18 16:01:13.559,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\Fontes\uStringUtils.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\Exemplo01\uStringUtils.pas</Transaction>
+  </Transactions>
+</BorlandProject>

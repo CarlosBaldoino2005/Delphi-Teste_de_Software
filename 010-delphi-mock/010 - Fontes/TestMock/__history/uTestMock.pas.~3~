@@ -1,0 +1,41 @@
+unit uTestMock;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Delphi.Mocks,
+  Mock.Interfaces;
+
+type
+  [TestFixture]
+  TTestMock = class
+  private
+    FNFe: iNFe;
+
+  public
+
+    [Test]
+    procedure EmitirNFe;
+  end;
+
+implementation
+
+{ TTestMock }
+
+procedure TTestMock.EmitirNFe;
+var
+  mock: TMock<iDAONotaFiscal>;
+begin
+  mock := TMock<iDAONotaFiscal>.create;
+
+  FNFe := TNFe.Create;
+  FNFe.DAO(mock);
+
+  FNFe.Emitir;
+end;
+
+initialization
+  TDUnitX.RegisterTestFixture(TTestMock);
+
+end.

@@ -1,0 +1,14 @@
+unit Controller;
+
+interface
+
+uses
+  Controller.Interfaces,
+  Model.Services.Interfaces,
+  Model.Services;
+
+type TController = class(TInterfacedObject, IController)
+
+implementation
+
+end.

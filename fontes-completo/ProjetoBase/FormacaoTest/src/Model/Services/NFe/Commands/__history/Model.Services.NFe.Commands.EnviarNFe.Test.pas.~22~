@@ -1,0 +1,67 @@
+unit Model.Services.NFe.Commands.EnviarNFe.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  System.SysUtils,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Component.ACBr,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.EnviarNFe,
+  MockEverything,
+  MockRttiUtils;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandEnviarNFeTest = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+
+    procedure GerarNFeTest;
+  public
+    [Setup]
+    procedure Setup;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+procedure enviarSefaz;
+
+implementation
+
+procedure enviarSefaz;
+begin
+
+end;
+
+{ TModelServicesNFeCommandEnviarNFeTest }
+
+procedure TModelServicesNFeCommandEnviarNFeTest.GerarNFeTest;
+begin
+
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeTest.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandEnviarNFe.New(FNFe);
+end;
+
+procedure TModelServicesNFeCommandEnviarNFeTest.TestCommand;
+begin
+  TMockDetour.Get.LoadMapAddress('FormacaoERPTest.map');
+  TMockDetour.Get.Mock(TModelServicesNFeComponentACBr, 'EnviarSefaz', @enviarSefaz);
+
+  FCommand.Execute;
+
+  Assert.IsNotEmpty(FNFe.Component.ChaveEletronica);
+  Assert.IsNotEmpty(FNFe.Component.Protocolo);
+
+  TMockDetour.Get.Remove(TModelServicesNFeComponentACBr, 'EnviarSefaz');
+end;
+
+end.

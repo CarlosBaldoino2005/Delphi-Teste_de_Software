@@ -1,0 +1,19 @@
+unit Model.Services.NFe.Command.Destinatario.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe.Command.Destinatario,
+  System.SysUtils;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandDestinatarioTest = class
+
+  end;
+
+implementation
+
+end.

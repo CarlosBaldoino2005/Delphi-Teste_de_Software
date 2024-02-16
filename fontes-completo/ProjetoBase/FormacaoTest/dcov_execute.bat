@@ -1,0 +1,1 @@
+"CodeCoverage.exe" -e "D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\Bin\FormacaoERPTest.exe" -m "D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\Bin\FormacaoERPTest.map" -ife -uf dcov_units.lst -spf dcov_paths.lst -od "D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\" -lt -html

@@ -1,0 +1,61 @@
+unit Entities.NotaFiscal;
+
+interface
+
+type TEntityNotaFiscal = class
+
+  private
+    FId: string;
+    FNumero: string;
+    FChaveEletronica: string;
+    FValorTotal: Double;
+    FCNPJEmitente: string;
+    FCNPJDestinatario: String;
+
+  public
+    function Id(Value: String): TEntityNotaFiscal;
+    function Numero(Value: String): TEntityNotaFiscal;
+    function ChaveEletronica(Value: String): TEntityNotaFiscal;
+    function CNPJEmitente(Value: String): TEntityNotaFiscal;
+    function CNPJDestinatario(Value: String): TEntityNotaFiscal;
+    function ValorTotal(Value: Double): TEntityNotaFiscal;
+
+end;
+
+implementation
+
+{ TEntityNotaFiscal }
+
+function TEntityNotaFiscal.ChaveEletronica(
+  Value: String): TEntityNotaFiscal;
+begin
+
+end;
+
+function TEntityNotaFiscal.CNPJDestinatario(
+  Value: String): TEntityNotaFiscal;
+begin
+
+end;
+
+function TEntityNotaFiscal.CNPJEmitente(Value: String): TEntityNotaFiscal;
+begin
+
+end;
+
+function TEntityNotaFiscal.Id(Value: String): TEntityNotaFiscal;
+begin
+
+end;
+
+function TEntityNotaFiscal.Numero(Value: String): TEntityNotaFiscal;
+begin
+
+end;
+
+function TEntityNotaFiscal.ValorTotal(Value: Double): TEntityNotaFiscal;
+begin
+
+end;
+
+end.

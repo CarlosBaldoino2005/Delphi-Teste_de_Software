@@ -1,0 +1,2150 @@
+Will track coverage for:Model.Components.Connections.Factory
+Will track coverage for:Model.Components.Connections.Firedac
+Will track coverage for:Model.Components.Connections.Interfaces
+Will track coverage for:Model.Components.Factory
+Will track coverage for:Model.Components.Interfaces
+Will track coverage for:Model.DAO.Factory
+Will track coverage for:Model.DAO.Interfaces
+Will track coverage for:Model.DAO.NotaFiscal
+Will track coverage for:Model.Entities.NotaFiscal
+Will track coverage for:Model.Services.Factory
+Will track coverage for:Model.Services.Interfaces
+Will track coverage for:Model.Services.NFe
+Will track coverage for:Model.Services.NFe.Command.Destinatario
+Will track coverage for:Model.Services.NFe.Command.Emitente
+Will track coverage for:Model.Services.NFe.Command.EnviarNFe
+Will track coverage for:Model.Services.NFe.Command.Ide
+Will track coverage for:Model.Services.NFe.Interfaces
+Will track coverage for:Model.Services.NFe.Invoker
+Will track coverage for:Model.Services.NFe.Observer.AtualizarNota
+Trying to start FormacaoERPTest.exe with the Parameters :
+Started successfully
+Create Process:16256 name:FormacaoERPTest.exe
+Adding breakpoints for module:FormacaoERPTest.exe
+Module name "System.Types" did not match module from address name "System.UITypes" at address:0001A7D7
+Module name "Winapi.Messages" did not match module from address name "System.VarUtils" at address:000704D0
+Module name "Winapi.ActiveX" did not match module from address name "System.Generics.Collections" at address:000842D0
+Module name "System.Generics.Collections" did not match module from address name "System.Hash" at address:00088AD0
+Module name "System.Hash" did not match module from address name "System.Math" at address:0008E82A
+Module name "System.Generics.Defaults" did not match module from address name "System.Classes" at address:000E0F84
+Module name "System.TimeSpan" did not match module from address name "System.Diagnostics" at address:0016656C
+Module name "System.Diagnostics" did not match module from address name "System.SyncObjs" at address:0016683F
+Module name "System.Win.Crtl" did not match module from address name "System.RegularExpressionsAPI" at address:001942D6
+Module name "System.RegularExpressionsAPI" did not match module from address name "System.RegularExpressionsCore" at address:001B0AEB
+Module name "System.RegularExpressions" did not match module from address name "DUnitX.Assert" at address:001B8E35
+Module name "DUnitX.InternalDataProvider" did not match module from address name "DUnitX.Attributes" at address:001C92F3
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64474
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+Creating class info for Model.Entities.NotaFiscal class TModelEntitiesNotaFiscal
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 40 BreakPoint at:00661D8C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64475
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 41 BreakPoint at:00661DAE
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64476
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 42 BreakPoint at:00661DB4
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64477
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 43 BreakPoint at:00661DC2
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64478
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 46 BreakPoint at:00661DE8
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64479
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 47 BreakPoint at:00661E0A
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64480
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 48 BreakPoint at:00661E10
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64481
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 49 BreakPoint at:00661E1E
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64482
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 52 BreakPoint at:00661E44
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64483
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 53 BreakPoint at:00661E66
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64484
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 54 BreakPoint at:00661E6C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64485
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 55 BreakPoint at:00661E7A
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64486
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 58 BreakPoint at:00661EA0
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64487
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 59 BreakPoint at:00661EC2
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64488
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 60 BreakPoint at:00661EC8
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64489
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 61 BreakPoint at:00661ED6
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64490
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 64 BreakPoint at:00661EFC
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64491
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 65 BreakPoint at:00661F1E
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64492
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 66 BreakPoint at:00661F24
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64493
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 67 BreakPoint at:00661F32
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64494
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 70 BreakPoint at:00661F58
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64495
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 71 BreakPoint at:00661F61
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64496
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 72 BreakPoint at:00661F67
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64497
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 73 BreakPoint at:00661F76
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64498
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 76 BreakPoint at:00661F80
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64499
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 77 BreakPoint at:00661F8C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64500
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ChaveEletronica in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 78 BreakPoint at:00661F9A
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64501
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 81 BreakPoint at:00661FA0
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64502
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 82 BreakPoint at:00661FAC
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64503
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJDestinatario in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 83 BreakPoint at:00661FBA
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64504
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 86 BreakPoint at:00661FC0
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64505
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 87 BreakPoint at:00661FCC
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64506
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.CNPJEmitente in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 88 BreakPoint at:00661FDA
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64507
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 91 BreakPoint at:00661FE0
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64508
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 92 BreakPoint at:00661FEC
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64509
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 93 BreakPoint at:00661FFA
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64510
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 96 BreakPoint at:00662000
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64511
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 97 BreakPoint at:0066200C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64512
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Id in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 98 BreakPoint at:0066201A
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64513
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 101 BreakPoint at:00662020
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64514
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 102 BreakPoint at:0066202C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64515
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Numero in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 103 BreakPoint at:0066203A
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64516
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 106 BreakPoint at:00662040
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64517
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 107 BreakPoint at:00662062
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64518
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 108 BreakPoint at:00662068
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64519
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.Protocolo in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 109 BreakPoint at:00662076
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64520
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 112 BreakPoint at:0066209C
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64521
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 113 BreakPoint at:006620A5
+Setting BreakPoint for module: Model.Entities.NotaFiscal unit Model.Entities.NotaFiscal.pas addr:64522
+Adding breakpoint for Model.Entities.NotaFiscal.TModelEntitiesNotaFiscal.ValorTotal in Model.Entities.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.Entities.NotaFiscal.pas line 114 BreakPoint at:006620B4
+Module name "Model.Entities.NotaFiscal" did not match module from address name "System.MaskUtils" at address:002610C2
+Module name "System.MaskUtils" did not match module from address name "Data.DBConsts" at address:00261FB5
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75417
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.create in Model.DAO.NotaFiscal.pas
+Creating class info for Model.DAO.NotaFiscal class TModelDAONotaFiscal
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 41 BreakPoint at:006AFE74
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75418
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.create in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 42 BreakPoint at:006AFEA5
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75419
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.create in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 43 BreakPoint at:006AFEB3
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75420
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 46 BreakPoint at:006AFEF0
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75421
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 47 BreakPoint at:006AFEFF
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75422
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 48 BreakPoint at:006AFF11
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75423
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 49 BreakPoint at:006AFF1A
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75424
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 50 BreakPoint at:006AFF32
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75425
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 53 BreakPoint at:006AFF38
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75426
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 54 BreakPoint at:006AFF41
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75427
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.DataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 55 BreakPoint at:006AFF4F
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75428
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 58 BreakPoint at:006AFF58
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75429
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 59 BreakPoint at:006AFF7F
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75430
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 60 BreakPoint at:006AFF91
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75431
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 67 BreakPoint at:006AFF9F
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75432
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 68 BreakPoint at:006B002F
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75433
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 69 BreakPoint at:006B0032
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75434
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Delete in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 71 BreakPoint at:006B005E
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75435
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Destroy in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 74 BreakPoint at:006B0168
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75436
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Destroy in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 75 BreakPoint at:006B0179
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75437
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Destroy in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 76 BreakPoint at:006B0184
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75438
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Destroy in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 77 BreakPoint at:006B0192
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75439
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 80 BreakPoint at:006B01A4
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75440
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 81 BreakPoint at:006B01C8
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75441
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 82 BreakPoint at:006B01DA
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75442
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 87 BreakPoint at:006B01E8
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75443
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 88 BreakPoint at:006B0239
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75444
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 89 BreakPoint at:006B023C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75445
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 91 BreakPoint at:006B0268
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75446
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 94 BreakPoint at:006B032C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75447
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 95 BreakPoint at:006B037C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75448
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 96 BreakPoint at:006B038E
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75449
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 101 BreakPoint at:006B039C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75450
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 103 BreakPoint at:006B0405
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75451
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 104 BreakPoint at:006B0428
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75452
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 105 BreakPoint at:006B042B
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75453
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 107 BreakPoint at:006B0457
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75454
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 110 BreakPoint at:006B0554
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75455
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 111 BreakPoint at:006B0596
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75456
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 112 BreakPoint at:006B05A8
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75457
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 118 BreakPoint at:006B05B6
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75458
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 120 BreakPoint at:006B0600
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75459
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 121 BreakPoint at:006B0623
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75460
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 122 BreakPoint at:006B0626
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75461
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Get in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 124 BreakPoint at:006B0652
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75462
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 127 BreakPoint at:006B0750
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75463
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 128 BreakPoint at:006B0776
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75464
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 129 BreakPoint at:006B0788
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75465
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 130 BreakPoint at:006B0796
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75466
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 131 BreakPoint at:006B07B2
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75467
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 133 BreakPoint at:006B07CE
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75468
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 134 BreakPoint at:006B0815
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75469
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 148 BreakPoint at:006B09F5
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75470
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 150 BreakPoint at:006B09F8
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75471
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 151 BreakPoint at:006B0A05
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75472
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Insert in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 154 BreakPoint at:006B0A37
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75473
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.New in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 157 BreakPoint at:006B0E6C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75474
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.New in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 158 BreakPoint at:006B0E91
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75475
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.New in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 159 BreakPoint at:006B0EAF
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75476
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.ReadFromDataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 162 BreakPoint at:006B0ED0
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75477
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.ReadFromDataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 163 BreakPoint at:006B0EED
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75478
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.ReadFromDataSet in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 171 BreakPoint at:006B1002
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75479
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.This in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 174 BreakPoint at:006B1120
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75480
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.This in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 175 BreakPoint at:006B1129
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75481
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.This in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 176 BreakPoint at:006B1132
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75482
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.This in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 177 BreakPoint at:006B1144
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75483
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.This in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 178 BreakPoint at:006B114D
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75484
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 181 BreakPoint at:006B1154
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75485
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 182 BreakPoint at:006B117A
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75486
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 183 BreakPoint at:006B118C
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75487
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 202 BreakPoint at:006B119A
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75488
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 203 BreakPoint at:006B13D4
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75489
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 204 BreakPoint at:006B13D7
+Setting BreakPoint for module: Model.DAO.NotaFiscal unit Model.DAO.NotaFiscal.pas addr:75490
+Adding breakpoint for Model.DAO.NotaFiscal.TModelDAONotaFiscal.Update in Model.DAO.NotaFiscal.pas
+TBreakPoint.Activate:
+Activate Model.DAO.NotaFiscal.pas line 206 BreakPoint at:006B1409
+Module name "Model.DAO.NotaFiscal" did not match module from address name "System.Masks" at address:002B0827
+Module name "System.IOUtils" did not match module from address name "System.IniFiles" at address:002BA220
+Module name "System.Win.Registry" did not match module from address name "Winapi.Qos" at address:002CD7B0
+Module name "Winapi.CommCtrl" did not match module from address name "Winapi.RegStr" at address:002D9FDC
+Module name "Winapi.ShlObj" did not match module from address name "System.AnsiStrings" at address:002E8CF8
+Module name "FireDAC.Phys.Intf" did not match module from address name "FireDAC.DApt.Column" at address:00341086
+Module name "FireDAC.DApt.Column" did not match module from address name "FireDAC.DApt.Intf" at address:00341C2D
+Module name "FireDAC.DApt.Intf" did not match module from address name "FireDAC.Stan.Factory" at address:00342057
+Module name "FireDAC.Phys.SQLGenerator" did not match module from address name "FireDAC.Phys.SQLPreprocessor" at address:00365827
+Module name "FireDAC.Phys.SQLPreprocessor" did not match module from address name "FireDAC.Phys.Meta" at address:0036A323
+Module name "FireDAC.Phys.Meta" did not match module from address name "FireDAC.Phys" at address:0037201B
+Module name "FireDAC.Phys.SQLiteDef" did not match module from address name "FireDAC.Phys.SQLite" at address:0045F54B
+Module name "Winapi.MultiMon" did not match module from address name "Winapi.Wincodec" at address:00471999
+Module name "Winapi.Wincodec" did not match module from address name "System.UIConsts" at address:00472F80
+Module name "System.Contnrs" did not match module from address name "System.ImageList" at address:0048C3A5
+Module name "Winapi.Imm" did not match module from address name "Vcl.ActnList" at address:004A2078
+Module name "Winapi.Dwmapi" did not match module from address name "System.ZLib" at address:004AA316
+Module name "System.ZLib" did not match module from address name "Vcl.GraphUtil" at address:004B3E97
+Module name "Vcl.StdCtrls" did not match module from address name "Winapi.CommDlg" at address:004D5B55
+Module name "Winapi.RichEdit" did not match module from address name "Vcl.ToolWin" at address:004DE210
+Module name "Vcl.ToolWin" did not match module from address name "Vcl.ListActns" at address:004DF2D5
+Module name "Vcl.ListActns" did not match module from address name "Vcl.ComStrs" at address:004E1CF6
+Module name "Vcl.StdActns" did not match module from address name "Vcl.ComCtrls" at address:004EB30F
+Module name "System.Win.Taskbar" did not match module from address name "System.Win.TaskbarCore" at address:005D58F6
+Module name "System.Win.TaskbarCore" did not match module from address name "Winapi.ShellScaling" at address:005D7D5A
+Module name "Winapi.ShellScaling" did not match module from address name "Winapi.FlatSB" at address:005D7F78
+Module name "Vcl.ImgList" did not match module from address name "Vcl.Menus" at address:006019C1
+Module name "FireDAC.UI" did not match module from address name "FireDAC.VCLUI.Wait" at address:006367CF
+Module name "FireDAC.Comp.DataSet" did not match module from address name "FireDAC.Comp.UI" at address:006565F8
+Module name "FireDAC.Comp.UI" did not match module from address name "FireDAC.Comp.Client" at address:0065A123
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196020
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Active in Model.Components.Connections.Firedac.pas
+Creating class info for Model.Components.Connections.Firedac class TModelComponentsConnectionsFiredac
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 51 BreakPoint at:00A89A94
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196021
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Active in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 52 BreakPoint at:00A89AA3
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196022
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Active in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 53 BreakPoint at:00A89AB5
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196023
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Active in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 54 BreakPoint at:00A89AC6
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196024
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 58 BreakPoint at:00A89ACC
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196025
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 59 BreakPoint at:00A89B01
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196026
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 60 BreakPoint at:00A89B13
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196027
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 61 BreakPoint at:00A89B32
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196028
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 65 BreakPoint at:00A89B60
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196029
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 66 BreakPoint at:00A89B85
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196030
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 67 BreakPoint at:00A89B97
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196031
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.AddParam in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 68 BreakPoint at:00A89BAD
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196032
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 71 BreakPoint at:00A89BD0
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196033
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 72 BreakPoint at:00A89BE8
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196034
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 73 BreakPoint at:00A89BFC
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196035
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 74 BreakPoint at:00A89C10
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196036
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 75 BreakPoint at:00A89C21
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196037
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 76 BreakPoint at:00A89C36
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196038
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 77 BreakPoint at:00A89C4B
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196039
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 78 BreakPoint at:00A89C60
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196040
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Create in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 79 BreakPoint at:00A89C6B
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196041
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.DataSet in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 82 BreakPoint at:00A89D08
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196042
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.DataSet in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 83 BreakPoint at:00A89D11
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196043
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.DataSet in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 84 BreakPoint at:00A89D1A
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196044
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Destroy in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 87 BreakPoint at:00A89D24
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196045
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Destroy in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 88 BreakPoint at:00A89D35
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196046
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Destroy in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 89 BreakPoint at:00A89D46
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196047
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Destroy in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 90 BreakPoint at:00A89D57
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196048
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Destroy in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 91 BreakPoint at:00A89D65
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196049
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.ExecSQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 94 BreakPoint at:00A89D78
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196050
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.ExecSQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 95 BreakPoint at:00A89D84
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196051
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.ExecSQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 96 BreakPoint at:00A89D96
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196052
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.ExecSQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 97 BreakPoint at:00A89DA1
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196053
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.New in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 100 BreakPoint at:00A89DA8
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196054
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.New in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 101 BreakPoint at:00A89DB4
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196055
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.New in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 102 BreakPoint at:00A89DCF
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196056
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Open in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 105 BreakPoint at:00A89DD4
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196057
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Open in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 106 BreakPoint at:00A89DE0
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196058
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Open in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 107 BreakPoint at:00A89DF2
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196059
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.Open in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 108 BreakPoint at:00A89DFD
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196060
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 111 BreakPoint at:00A89E04
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196061
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 112 BreakPoint at:00A89E29
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196062
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 113 BreakPoint at:00A89E3B
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196063
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQL in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 114 BreakPoint at:00A89E4E
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196064
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQLClear in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 117 BreakPoint at:00A89E70
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196065
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQLClear in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 118 BreakPoint at:00A89E7C
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196066
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQLClear in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 119 BreakPoint at:00A89E8E
+Setting BreakPoint for module: Model.Components.Connections.Firedac unit Model.Components.Connections.Firedac.pas addr:196067
+Adding breakpoint for Model.Components.Connections.Firedac.TModelComponentsConnectionsFiredac.SQLClear in Model.Components.Connections.Firedac.pas
+TBreakPoint.Activate:
+Activate Model.Components.Connections.Firedac.pas line 120 BreakPoint at:00A89E9E
+Module name "Model.Components.Connections.Firedac" did not match module from address name "Model.DAO.NotaFiscal.Test" at address:00688EA9
+Module name "Model.Services.NFe.Component.ACBr" did not match module from address name "Model.Services.NFe.Interfaces" at address:0068A776
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196145
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.AddComand in Model.Services.NFe.Invoker.pas
+Creating class info for Model.Services.NFe.Invoker class TModelServicesNFeInvoker
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 29 BreakPoint at:00A8D77C
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196146
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.AddComand in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 30 BreakPoint at:00A8D7A1
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196147
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.AddComand in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 31 BreakPoint at:00A8D7B3
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196148
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.AddComand in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 32 BreakPoint at:00A8D7DF
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196149
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.create in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 35 BreakPoint at:00A8D800
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196150
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.create in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 36 BreakPoint at:00A8D818
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196151
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.create in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 37 BreakPoint at:00A8D82A
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196152
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Destroy in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 40 BreakPoint at:00A8D84C
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196153
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Destroy in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 41 BreakPoint at:00A8D85D
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196154
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Destroy in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 42 BreakPoint at:00A8D868
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196155
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Destroy in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 43 BreakPoint at:00A8D876
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196156
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Execute in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 48 BreakPoint at:00A8D888
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196157
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Execute in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 49 BreakPoint at:00A8D8AA
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196158
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Execute in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 50 BreakPoint at:00A8D8C3
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196159
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Execute in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 49 BreakPoint at:00A8D931
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196160
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.Execute in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 51 BreakPoint at:00A8D936
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196161
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.New in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 54 BreakPoint at:00A8D960
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196162
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.New in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 55 BreakPoint at:00A8D96C
+Setting BreakPoint for module: Model.Services.NFe.Invoker unit Model.Services.NFe.Invoker.pas addr:196163
+Adding breakpoint for Model.Services.NFe.Invoker.TModelServicesNFeInvoker.New in Model.Services.NFe.Invoker.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Invoker.pas line 56 BreakPoint at:00A8D987
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196483
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.create in Model.Services.NFe.Command.Ide.pas
+Creating class info for Model.Services.NFe.Command.Ide class TModelServicesNFeCommandIde
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 26 BreakPoint at:00A8FB84
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196484
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.create in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 27 BreakPoint at:00A8FBB5
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196485
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.create in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 28 BreakPoint at:00A8FBC3
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196486
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.Execute in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 31 BreakPoint at:00A8FC00
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196487
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.Execute in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 32 BreakPoint at:00A8FC1E
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196488
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.Execute in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 33 BreakPoint at:00A8FC30
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196489
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.Execute in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 34 BreakPoint at:00A8FC63
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196490
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.Execute in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 35 BreakPoint at:00A8FC95
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196491
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.New in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 38 BreakPoint at:00A8FCCC
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196492
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.New in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 39 BreakPoint at:00A8FCF1
+Setting BreakPoint for module: Model.Services.NFe.Command.Ide unit Model.Services.NFe.Command.Ide.pas addr:196493
+Adding breakpoint for Model.Services.NFe.Command.Ide.TModelServicesNFeCommandIde.New in Model.Services.NFe.Command.Ide.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Ide.pas line 40 BreakPoint at:00A8FD0F
+Module name "Model.Services.NFe.Command.Ide" did not match module from address name "Model.Services.NFe.Command.Emitente" at address:0068ED37
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196495
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.create in Model.Services.NFe.Command.Emitente.pas
+Creating class info for Model.Services.NFe.Command.Emitente class TModelServicesNFeCommandEmitente
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 26 BreakPoint at:00A8FF18
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196496
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.create in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 27 BreakPoint at:00A8FF49
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196497
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.create in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 28 BreakPoint at:00A8FF57
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196498
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.Execute in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 31 BreakPoint at:00A8FF94
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196499
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.Execute in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 32 BreakPoint at:00A8FFB6
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196500
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.Execute in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 33 BreakPoint at:00A8FFC8
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196501
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.Execute in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 34 BreakPoint at:00A8FFFB
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196502
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.New in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 37 BreakPoint at:00A90024
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196503
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.New in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 38 BreakPoint at:00A90049
+Setting BreakPoint for module: Model.Services.NFe.Command.Emitente unit Model.Services.NFe.Command.Emitente.pas addr:196504
+Adding breakpoint for Model.Services.NFe.Command.Emitente.TModelServicesNFeCommandEmitente.New in Model.Services.NFe.Command.Emitente.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Emitente.pas line 39 BreakPoint at:00A90067
+Module name "Model.Services.NFe.Command.Emitente" did not match module from address name "Model.Services.NFe.Command.Destinatario" at address:0068F08F
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196506
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.create in Model.Services.NFe.Command.Destinatario.pas
+Creating class info for Model.Services.NFe.Command.Destinatario class TModelServicesNFeCommandDestinatario
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 26 BreakPoint at:00A9027C
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196507
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.create in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 27 BreakPoint at:00A902AD
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196508
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.create in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 28 BreakPoint at:00A902BB
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196509
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.Execute in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 31 BreakPoint at:00A902F8
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196510
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.Execute in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 32 BreakPoint at:00A9031A
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196511
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.Execute in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 33 BreakPoint at:00A9032C
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196512
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.Execute in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 34 BreakPoint at:00A9035F
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196513
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.New in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 37 BreakPoint at:00A90388
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196514
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.New in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 38 BreakPoint at:00A903AD
+Setting BreakPoint for module: Model.Services.NFe.Command.Destinatario unit Model.Services.NFe.Command.Destinatario.pas addr:196515
+Adding breakpoint for Model.Services.NFe.Command.Destinatario.TModelServicesNFeCommandDestinatario.New in Model.Services.NFe.Command.Destinatario.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.Destinatario.pas line 39 BreakPoint at:00A903CB
+Module name "Model.Services.NFe.Command.Destinatario" did not match module from address name "Model.Services.NFe.Command.EnviarNFe" at address:0068F3F3
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196517
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.create in Model.Services.NFe.Command.EnviarNFe.pas
+Creating class info for Model.Services.NFe.Command.EnviarNFe class TModelServicesNFeCommandEnviarNFe
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 26 BreakPoint at:00A905DC
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196518
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.create in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 27 BreakPoint at:00A9060D
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196519
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.create in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 28 BreakPoint at:00A9061B
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196520
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.Execute in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 31 BreakPoint at:00A90658
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196521
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.Execute in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 32 BreakPoint at:00A90664
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196522
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.Execute in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 33 BreakPoint at:00A90676
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196523
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.Execute in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 34 BreakPoint at:00A90686
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196524
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.New in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 37 BreakPoint at:00A9068C
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196525
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.New in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 38 BreakPoint at:00A906B1
+Setting BreakPoint for module: Model.Services.NFe.Command.EnviarNFe unit Model.Services.NFe.Command.EnviarNFe.pas addr:196526
+Adding breakpoint for Model.Services.NFe.Command.EnviarNFe.TModelServicesNFeCommandEnviarNFe.New in Model.Services.NFe.Command.EnviarNFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.Command.EnviarNFe.pas line 39 BreakPoint at:00A906CF
+Module name "Model.Services.NFe.Command.EnviarNFe" did not match module from address name "Model.Services.NFe" at address:0068F6F7
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196528
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.End in Model.Services.NFe.pas
+Creating class info for Model.Services.NFe class TModelServicesNFe
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 52 BreakPoint at:00A93730
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196529
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.End in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 53 BreakPoint at:00A9373C
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196530
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.End in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 54 BreakPoint at:00A9374E
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196531
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddNotifyMethod in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 57 BreakPoint at:00A93754
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196532
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddNotifyMethod in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 58 BreakPoint at:00A93779
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196533
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddNotifyMethod in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 59 BreakPoint at:00A9378B
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196534
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddNotifyMethod in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 60 BreakPoint at:00A937B7
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196535
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddObserver in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 63 BreakPoint at:00A937D8
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196536
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddObserver in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 64 BreakPoint at:00A937FD
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196537
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddObserver in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 65 BreakPoint at:00A9380F
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196538
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.AddObserver in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 66 BreakPoint at:00A9383B
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196539
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Clear in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 69 BreakPoint at:00A9385C
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196540
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Clear in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 70 BreakPoint at:00A93868
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196541
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Clear in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 71 BreakPoint at:00A9387A
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196542
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Clear in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 72 BreakPoint at:00A93885
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196543
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Component in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 75 BreakPoint at:00A9388C
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196544
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Component in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 76 BreakPoint at:00A93895
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196545
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Component in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 77 BreakPoint at:00A9389E
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196546
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.create in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 80 BreakPoint at:00A938A8
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196547
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.create in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 81 BreakPoint at:00A938C0
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196548
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.create in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 82 BreakPoint at:00A938D4
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196549
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.create in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 83 BreakPoint at:00A938E6
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196550
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.create in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 84 BreakPoint at:00A938F8
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196551
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 87 BreakPoint at:00A93918
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196552
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 88 BreakPoint at:00A9393D
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196553
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 89 BreakPoint at:00A9394F
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196554
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 90 BreakPoint at:00A9395D
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196555
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 93 BreakPoint at:00A93980
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196556
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 94 BreakPoint at:00A9398C
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196557
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.DAO in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 95 BreakPoint at:00A9399A
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196558
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 98 BreakPoint at:00A939A0
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196559
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 99 BreakPoint at:00A939B1
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196560
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 100 BreakPoint at:00A939BC
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196561
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 101 BreakPoint at:00A939C7
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196562
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 102 BreakPoint at:00A939D2
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196563
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Destroy in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 103 BreakPoint at:00A939E0
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196564
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Enviar in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 106 BreakPoint at:00A939F4
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196565
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Enviar in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 107 BreakPoint at:00A93A19
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196566
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Enviar in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 108 BreakPoint at:00A93A2B
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196567
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Enviar in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 115 BreakPoint at:00A93ADF
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196568
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Enviar in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 116 BreakPoint at:00A93AFD
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196569
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.New in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 119 BreakPoint at:00A93B58
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196570
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.New in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 120 BreakPoint at:00A93B64
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196571
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.New in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 121 BreakPoint at:00A93B7F
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196572
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 131 BreakPoint at:00A93B84
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196573
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 132 BreakPoint at:00A93BBA
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196574
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 133 BreakPoint at:00A93BD7
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196575
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 132 BreakPoint at:00A93C48
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196576
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 135 BreakPoint at:00A93C4D
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196577
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 136 BreakPoint at:00A93C6A
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196578
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 135 BreakPoint at:00A93CE7
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196579
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.Notify in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 137 BreakPoint at:00A93CF0
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196580
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.NumeroNota in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 140 BreakPoint at:00A93D2C
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196581
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.NumeroNota in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 141 BreakPoint at:00A93D5F
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196582
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.NumeroNota in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 142 BreakPoint at:00A93D71
+Setting BreakPoint for module: Model.Services.NFe unit Model.Services.NFe.pas addr:196583
+Adding breakpoint for Model.Services.NFe.TModelServicesNFe.NumeroNota in Model.Services.NFe.pas
+TBreakPoint.Activate:
+Activate Model.Services.NFe.pas line 143 BreakPoint at:00A93D93
+Module name "Delphi.Mocks.WeakReference" did not match module from address name "Delphi.Mocks.Utils" at address:00697479
+Module name "Delphi.Mocks.Utils" did not match module from address name "Delphi.Mocks.ParamMatcher" at address:0069777F
+Module name "Delphi.Mocks.Helpers" did not match module from address name "Delphi.Mocks.Behavior" at address:006A67E4
+Module name "Delphi.Mocks.Behavior" did not match module from address name "Delphi.Mocks.Expectation" at address:006A7327
+Module name "Delphi.Mocks.Expectation" did not match module from address name "Delphi.Mocks.MethodData" at address:006A918F
+Module name "Delphi.Mocks.Validation" did not match module from address name "Delphi.Mocks.Proxy.TypeInfo" at address:006C8ACB
+Module name "Delphi.Mocks.Proxy.TypeInfo" did not match module from address name "Delphi.Mocks.AutoMock" at address:006CAC1B
+Module name "Model.Services.NFe.Command.Destinatario.Test" did not match module from address name "InstDecode" at address:006D7536
+Module name "InstDecode" did not match module from address name "CPUID" at address:006D8A6A
+Module name "FireDAC.Stan.Option" did not match module from address name "FireDAC.Stan.Def" at address:0071F96C
+Module name "FireDAC.Stan.Def" did not match module from address name "FireDAC.Stan.Pool" at address:0071FA24
+Module name "FireDAC.Phys" did not match module from address name "FireDAC.Stan.Expr" at address:0071FAE0
+Module name "Vcl.ComCtrls" did not match module from address name "Vcl.Dialogs" at address:0072056D
+Module name "Vcl.Dialogs" did not match module from address name "Vcl.ExtCtrls" at address:00720638
+Module name "Vcl.ExtCtrls" did not match module from address name "Vcl.Themes" at address:00720728
+Module name "Vcl.Controls" did not match module from address name "FireDAC.VCLUI.Wait" at address:007209BC
+Module name "FireDAC.Stan.Param" did not match module from address name "FireDAC.VCLUI.Wait" at address:00720A41
+Module name "FireDAC.DApt" did not match module from address name "FireDAC.Comp.Client" at address:00720AB4
+Module name "FireDAC.Comp.Client" did not match module from address name "Delphi.Mocks.ParamMatcher" at address:00720B18
+Module adler32 skipped
+Module CPUID skipped
+Module crc32 skipped
+Module ctype skipped
+Module Data.DB skipped
+Module Data.FmtBcd skipped
+Module Data.SqlTimSt skipped
+Module DDetours skipped
+Module deflate skipped
+Module delayhlp skipped
+Module Delphi.Mocks skipped
+Module Delphi.Mocks.AutoMock skipped
+Module Delphi.Mocks.Behavior skipped
+Module Delphi.Mocks.Expectation skipped
+Module Delphi.Mocks.Helpers skipped
+Module Delphi.Mocks.MethodData skipped
+Module Delphi.Mocks.ObjectProxy skipped
+Module Delphi.Mocks.ParamMatcher skipped
+Module Delphi.Mocks.Proxy skipped
+Module Delphi.Mocks.Proxy.TypeInfo skipped
+Module Delphi.Mocks.Utils skipped
+Module Delphi.Mocks.Validation skipped
+Module Delphi.Mocks.WeakReference skipped
+Module Delphi.Mocks.When skipped
+Module DUnitX.Banner skipped
+Module DUnitX.InternalDataProvider skipped
+Module DUnitX.IoC skipped
+Module FireDAC.Comp.Client skipped
+Module FireDAC.Comp.DataSet skipped
+Module FireDAC.Comp.UI skipped
+Module FireDAC.DApt skipped
+Module FireDAC.DApt.Column skipped
+Module FireDAC.DApt.Intf skipped
+Module FireDAC.DatS skipped
+Module FireDAC.Phys skipped
+Module FireDAC.Phys.Intf skipped
+Module FireDAC.Phys.Meta skipped
+Module FireDAC.Phys.SQLGenerator skipped
+Module FireDAC.Phys.SQLite skipped
+Module FireDAC.Phys.SQLiteCli skipped
+Module FireDAC.Phys.SQLiteDef skipped
+Module FireDAC.Phys.SQLiteMeta skipped
+Module FireDAC.Phys.SQLiteWrapper skipped
+Module FireDAC.Phys.SQLPreprocessor skipped
+Module FireDAC.Stan.Async skipped
+Module FireDAC.Stan.Cipher skipped
+Module FireDAC.Stan.Def skipped
+Module FireDAC.Stan.Error skipped
+Module FireDAC.Stan.Expr skipped
+Module FireDAC.Stan.ExprFuncs skipped
+Module FireDAC.Stan.Factory skipped
+Module FireDAC.Stan.Intf skipped
+Module FireDAC.Stan.Option skipped
+Module FireDAC.Stan.Param skipped
+Module FireDAC.Stan.Pool skipped
+Module FireDAC.Stan.SQLTimeInt skipped
+Module FireDAC.Stan.Util skipped
+Module FireDAC.UI skipped
+Module FireDAC.UI.Intf skipped
+Module FireDAC.VCLUI.Wait skipped
+Module FormacaoERPTest skipped
+Module GETMEM skipped
+Module inffast skipped
+Module inflate skipped
+Module inftrees skipped
+Module InstDecode skipped
+Module MockEverything skipped
+Module MockMap skipped
+Module MockProcedures skipped
+Module Model.DAO.NotaFiscal.Test skipped
+Module Model.Services.NFe.Command.Destinatario.Test skipped
+Module Model.Services.NFe.Command.EnviarNFe.Test skipped
+Module Model.Services.NFe.Component.ACBr skipped
+Module pcre_compile skipped
+Module pcre_exec skipped
+Module pcre_fullinfo skipped
+Module pcre_get skipped
+Module pcre_internal skipped
+Module pcre_maketables skipped
+Module pcre_newline skipped
+Module pcre_string_utils skipped
+Module pcre_study skipped
+Module pcre_xclass skipped
+Module pcre16_ord2utf16 skipped
+Module pcre16_valid_utf16 skipped
+Module SysInit skipped
+Module System skipped
+Module System.Actions skipped
+Module System.AnsiStrings skipped
+Module System.Character skipped
+Module System.Character.12.1.0 skipped
+Module System.Classes skipped
+Module System.Contnrs skipped
+Module System.DateUtils skipped
+Module System.Diagnostics skipped
+Module System.Generics.Collections skipped
+Module System.Generics.Defaults skipped
+Module System.Hash skipped
+Module System.HelpIntfs skipped
+Module System.ImageList skipped
+Module System.IniFiles skipped
+Module System.Internal.ExcUtils skipped
+Module System.IOUtils skipped
+Module System.Masks skipped
+Module System.MaskUtils skipped
+Module System.Math skipped
+Module System.Messaging skipped
+Module System.RegularExpressions skipped
+Module System.RegularExpressionsAPI skipped
+Module System.RegularExpressionsCore skipped
+Module System.Rtti skipped
+Module System.StrUtils skipped
+Module System.SyncObjs skipped
+Module System.SysUtils skipped
+Module System.TimeSpan skipped
+Module System.Types skipped
+Module System.TypInfo skipped
+Module System.UIConsts skipped
+Module System.UITypes skipped
+Module System.Variants skipped
+Module System.VarUtils skipped
+Module System.WideStrUtils skipped
+Module System.Win.ComObj skipped
+Module System.Win.Crtl skipped
+Module System.Win.Registry skipped
+Module System.Win.Taskbar skipped
+Module System.Win.TaskbarCore skipped
+Module System.ZLib skipped
+Module trees skipped
+Module Vcl.ActnList skipped
+Module Vcl.Clipbrd skipped
+Module Vcl.ComCtrls skipped
+Module Vcl.Controls skipped
+Module Vcl.Dialogs skipped
+Module Vcl.ExtCtrls skipped
+Module Vcl.Forms skipped
+Module Vcl.Graphics skipped
+Module Vcl.GraphUtil skipped
+Module Vcl.ImgList skipped
+Module Vcl.ListActns skipped
+Module Vcl.Menus skipped
+Module Vcl.Printers skipped
+Module Vcl.StdActns skipped
+Module Vcl.StdCtrls skipped
+Module Vcl.Themes skipped
+Module Vcl.ToolWin skipped
+Module Winapi.ActiveX skipped
+Module Winapi.CommCtrl skipped
+Module Winapi.CommDlg skipped
+Module Winapi.DwmApi skipped
+Module Winapi.FlatSB skipped
+Module Winapi.Imm skipped
+Module Winapi.Messages skipped
+Module Winapi.MsCTF skipped
+Module Winapi.MultiMon skipped
+Module Winapi.PsAPI skipped
+Module Winapi.RichEdit skipped
+Module Winapi.ShellAPI skipped
+Module Winapi.ShellScaling skipped
+Module Winapi.SHFolder skipped
+Module Winapi.ShlObj skipped
+Module Winapi.TlHelp32 skipped
+Module Winapi.UxTheme skipped
+Module Winapi.Wincodec skipped
+Module Winapi.Windows skipped
+Module Winapi.WinSpool skipped
+Module WindowsAPIs skipped
+Module zutil skipped
+Done adding  BreakPoints
+ReadProcessMemory error: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída
+GetModuleFileNameEx error: Identificador inválido
+Loading DLL at addr:75FF0000 (C:\WINDOWS\SysWOW64\KERNEL32.DLL) size :409600
+Done adding  BreakPoints
+Loading DLL at addr:760E0000 (C:\WINDOWS\SysWOW64\KERNELBASE.dll) size :1929216
+Done adding  BreakPoints
+Create thread:4352
+Loading DLL at addr:76EF0000 (C:\WINDOWS\SysWOW64\comdlg32.dll) size :625664
+Done adding  BreakPoints
+Loading DLL at addr:76FA0000 (C:\WINDOWS\SysWOW64\msvcrt.dll) size :722432
+Done adding  BreakPoints
+Loading DLL at addr:75130000 (C:\WINDOWS\SysWOW64\winspool.drv) size :304128
+Done adding  BreakPoints
+Create thread:6972
+Loading DLL at addr:76570000 (C:\WINDOWS\SysWOW64\combase.dll) size :2348544
+Done adding  BreakPoints
+Create thread:544
+Loading DLL at addr:76800000 (C:\WINDOWS\SysWOW64\ucrtbase.dll) size :1106432
+Done adding  BreakPoints
+Loading DLL at addr:75E40000 (C:\WINDOWS\SysWOW64\RPCRT4.dll) size :707584
+Done adding  BreakPoints
+Loading DLL at addr:77060000 (C:\WINDOWS\SysWOW64\shcore.dll) size :487424
+Done adding  BreakPoints
+Loading DLL at addr:75CA0000 (C:\WINDOWS\SysWOW64\USER32.dll) size :654336
+Done adding  BreakPoints
+Loading DLL at addr:75340000 (C:\WINDOWS\SysWOW64\win32u.dll) size :21504
+Done adding  BreakPoints
+Loading DLL at addr:75310000 (C:\WINDOWS\SysWOW64\GDI32.dll) size :108544
+Done adding  BreakPoints
+Loading DLL at addr:772E0000 (C:\WINDOWS\SysWOW64\gdi32full.dll) size :756736
+Done adding  BreakPoints
+Loading DLL at addr:770F0000 (C:\WINDOWS\SysWOW64\msvcp_win.dll) size :449536
+Done adding  BreakPoints
+Loading DLL at addr:77170000 (C:\WINDOWS\SysWOW64\SHLWAPI.dll) size :234496
+Done adding  BreakPoints
+Loading DLL at addr:75680000 (C:\WINDOWS\SysWOW64\SHELL32.dll) size :5503488
+Done adding  BreakPoints
+Loading DLL at addr:74B40000 (C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll) size :466432
+Done adding  BreakPoints
+Loading DLL at addr:753F0000 (C:\WINDOWS\SysWOW64\oleaut32.dll) size :552960
+Done adding  BreakPoints
+Loading DLL at addr:77260000 (C:\WINDOWS\SysWOW64\ADVAPI32.dll) size :422912
+Done adding  BreakPoints
+Loading DLL at addr:75F00000 (C:\WINDOWS\SysWOW64\ole32.dll) size :758272
+Done adding  BreakPoints
+Loading DLL at addr:75210000 (C:\WINDOWS\SysWOW64\version.dll) size :10752
+Done adding  BreakPoints
+Loading DLL at addr:76380000 (C:\WINDOWS\SysWOW64\sechost.dll) size :417280
+Done adding  BreakPoints
+Loading DLL at addr:751B0000 (C:\WINDOWS\SysWOW64\netapi32.dll) size :51712
+Done adding  BreakPoints
+Loading DLL at addr:63F20000 (C:\WINDOWS\SysWOW64\SHFolder.dll) size :3584
+Done adding  BreakPoints
+Loading DLL at addr:74630000 (C:\WINDOWS\SysWOW64\NETUTILS.DLL) size :20992
+Done adding  BreakPoints
+Couldn't find BreakPoint for exception address:77481B72
+Loading DLL at addr:76EC0000 (C:\WINDOWS\SysWOW64\IMM32.DLL) size :100864
+Done adding  BreakPoints
+Loading DLL at addr:76920000 (C:\WINDOWS\SysWOW64\Msctf.dll) size :782848
+Done adding  BreakPoints
+Loading DLL at addr:71B40000 (C:\WINDOWS\SysWOW64\uxtheme.dll) size :415744
+Done adding  BreakPoints
+Loading DLL at addr:74530000 (C:\WINDOWS\SysWOW64\kernel.appcore.dll) size :27136
+Done adding  BreakPoints
+Loading DLL at addr:77200000 (C:\WINDOWS\SysWOW64\bcryptPrimitives.dll) size :357376
+Done adding  BreakPoints
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 100
+Clearing BreakPoint at 00A89DA8
+De-Activate Model.Components.Connections.Firedac.pas line 100 BreakPoint at:00A89DA8
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 101
+Clearing BreakPoint at 00A89DB4
+De-Activate Model.Components.Connections.Firedac.pas line 101 BreakPoint at:00A89DB4
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 71
+Clearing BreakPoint at 00A89BD0
+De-Activate Model.Components.Connections.Firedac.pas line 71 BreakPoint at:00A89BD0
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 72
+Clearing BreakPoint at 00A89BE8
+De-Activate Model.Components.Connections.Firedac.pas line 72 BreakPoint at:00A89BE8
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 73
+Clearing BreakPoint at 00A89BFC
+De-Activate Model.Components.Connections.Firedac.pas line 73 BreakPoint at:00A89BFC
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 74
+Clearing BreakPoint at 00A89C10
+De-Activate Model.Components.Connections.Firedac.pas line 74 BreakPoint at:00A89C10
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 75
+Clearing BreakPoint at 00A89C21
+De-Activate Model.Components.Connections.Firedac.pas line 75 BreakPoint at:00A89C21
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 76
+Clearing BreakPoint at 00A89C36
+De-Activate Model.Components.Connections.Firedac.pas line 76 BreakPoint at:00A89C36
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 77
+Clearing BreakPoint at 00A89C4B
+De-Activate Model.Components.Connections.Firedac.pas line 77 BreakPoint at:00A89C4B
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 78
+Clearing BreakPoint at 00A89C60
+De-Activate Model.Components.Connections.Firedac.pas line 78 BreakPoint at:00A89C60
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 79
+Clearing BreakPoint at 00A89C6B
+De-Activate Model.Components.Connections.Firedac.pas line 79 BreakPoint at:00A89C6B
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 102
+Clearing BreakPoint at 00A89DCF
+De-Activate Model.Components.Connections.Firedac.pas line 102 BreakPoint at:00A89DCF
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 157
+Clearing BreakPoint at 006B0E6C
+De-Activate Model.DAO.NotaFiscal.pas line 157 BreakPoint at:006B0E6C
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 158
+Clearing BreakPoint at 006B0E91
+De-Activate Model.DAO.NotaFiscal.pas line 158 BreakPoint at:006B0E91
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 41
+Clearing BreakPoint at 006AFE74
+De-Activate Model.DAO.NotaFiscal.pas line 41 BreakPoint at:006AFE74
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 42
+Clearing BreakPoint at 006AFEA5
+De-Activate Model.DAO.NotaFiscal.pas line 42 BreakPoint at:006AFEA5
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 43
+Clearing BreakPoint at 006AFEB3
+De-Activate Model.DAO.NotaFiscal.pas line 43 BreakPoint at:006AFEB3
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 159
+Clearing BreakPoint at 006B0EAF
+De-Activate Model.DAO.NotaFiscal.pas line 159 BreakPoint at:006B0EAF
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 94
+Clearing BreakPoint at 006B032C
+De-Activate Model.DAO.NotaFiscal.pas line 94 BreakPoint at:006B032C
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 95
+Clearing BreakPoint at 006B037C
+De-Activate Model.DAO.NotaFiscal.pas line 95 BreakPoint at:006B037C
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 96
+Clearing BreakPoint at 006B038E
+De-Activate Model.DAO.NotaFiscal.pas line 96 BreakPoint at:006B038E
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 101
+Clearing BreakPoint at 006B039C
+De-Activate Model.DAO.NotaFiscal.pas line 101 BreakPoint at:006B039C
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 51
+Clearing BreakPoint at 00A89A94
+De-Activate Model.Components.Connections.Firedac.pas line 51 BreakPoint at:00A89A94
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 52
+Clearing BreakPoint at 00A89AA3
+De-Activate Model.Components.Connections.Firedac.pas line 52 BreakPoint at:00A89AA3
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 53
+Clearing BreakPoint at 00A89AB5
+De-Activate Model.Components.Connections.Firedac.pas line 53 BreakPoint at:00A89AB5
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 54
+Clearing BreakPoint at 00A89AC6
+De-Activate Model.Components.Connections.Firedac.pas line 54 BreakPoint at:00A89AC6
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 117
+Clearing BreakPoint at 00A89E70
+De-Activate Model.Components.Connections.Firedac.pas line 117 BreakPoint at:00A89E70
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 118
+Clearing BreakPoint at 00A89E7C
+De-Activate Model.Components.Connections.Firedac.pas line 118 BreakPoint at:00A89E7C
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 119
+Clearing BreakPoint at 00A89E8E
+De-Activate Model.Components.Connections.Firedac.pas line 119 BreakPoint at:00A89E8E
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 120
+Clearing BreakPoint at 00A89E9E
+De-Activate Model.Components.Connections.Firedac.pas line 120 BreakPoint at:00A89E9E
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 111
+Clearing BreakPoint at 00A89E04
+De-Activate Model.Components.Connections.Firedac.pas line 111 BreakPoint at:00A89E04
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 112
+Clearing BreakPoint at 00A89E29
+De-Activate Model.Components.Connections.Firedac.pas line 112 BreakPoint at:00A89E29
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 113
+Clearing BreakPoint at 00A89E3B
+De-Activate Model.Components.Connections.Firedac.pas line 113 BreakPoint at:00A89E3B
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 114
+Clearing BreakPoint at 00A89E4E
+De-Activate Model.Components.Connections.Firedac.pas line 114 BreakPoint at:00A89E4E
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 105
+Clearing BreakPoint at 00A89DD4
+De-Activate Model.Components.Connections.Firedac.pas line 105 BreakPoint at:00A89DD4
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 106
+Clearing BreakPoint at 00A89DE0
+De-Activate Model.Components.Connections.Firedac.pas line 106 BreakPoint at:00A89DE0
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 107
+Clearing BreakPoint at 00A89DF2
+De-Activate Model.Components.Connections.Firedac.pas line 107 BreakPoint at:00A89DF2
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 108
+Clearing BreakPoint at 00A89DFD
+De-Activate Model.Components.Connections.Firedac.pas line 108 BreakPoint at:00A89DFD
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 103
+Clearing BreakPoint at 006B0405
+De-Activate Model.DAO.NotaFiscal.pas line 103 BreakPoint at:006B0405
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 162
+Clearing BreakPoint at 006B0ED0
+De-Activate Model.DAO.NotaFiscal.pas line 162 BreakPoint at:006B0ED0
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 163
+Clearing BreakPoint at 006B0EED
+De-Activate Model.DAO.NotaFiscal.pas line 163 BreakPoint at:006B0EED
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 53
+Clearing BreakPoint at 006AFF38
+De-Activate Model.DAO.NotaFiscal.pas line 53 BreakPoint at:006AFF38
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 54
+Clearing BreakPoint at 006AFF41
+De-Activate Model.DAO.NotaFiscal.pas line 54 BreakPoint at:006AFF41
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 82
+Clearing BreakPoint at 00A89D08
+De-Activate Model.Components.Connections.Firedac.pas line 82 BreakPoint at:00A89D08
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 83
+Clearing BreakPoint at 00A89D11
+De-Activate Model.Components.Connections.Firedac.pas line 83 BreakPoint at:00A89D11
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 84
+Clearing BreakPoint at 00A89D1A
+De-Activate Model.Components.Connections.Firedac.pas line 84 BreakPoint at:00A89D1A
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 55
+Clearing BreakPoint at 006AFF4F
+De-Activate Model.DAO.NotaFiscal.pas line 55 BreakPoint at:006AFF4F
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 174
+Clearing BreakPoint at 006B1120
+De-Activate Model.DAO.NotaFiscal.pas line 174 BreakPoint at:006B1120
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 175
+Clearing BreakPoint at 006B1129
+De-Activate Model.DAO.NotaFiscal.pas line 175 BreakPoint at:006B1129
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 176
+Clearing BreakPoint at 006B1132
+De-Activate Model.DAO.NotaFiscal.pas line 176 BreakPoint at:006B1132
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 177
+Clearing BreakPoint at 006B1144
+De-Activate Model.DAO.NotaFiscal.pas line 177 BreakPoint at:006B1144
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 178
+Clearing BreakPoint at 006B114D
+De-Activate Model.DAO.NotaFiscal.pas line 178 BreakPoint at:006B114D
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 58
+Clearing BreakPoint at 00661EA0
+De-Activate Model.Entities.NotaFiscal.pas line 58 BreakPoint at:00661EA0
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 59
+Clearing BreakPoint at 00661EC2
+De-Activate Model.Entities.NotaFiscal.pas line 59 BreakPoint at:00661EC2
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 60
+Clearing BreakPoint at 00661EC8
+De-Activate Model.Entities.NotaFiscal.pas line 60 BreakPoint at:00661EC8
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 61
+Clearing BreakPoint at 00661ED6
+De-Activate Model.Entities.NotaFiscal.pas line 61 BreakPoint at:00661ED6
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 64
+Clearing BreakPoint at 00661EFC
+De-Activate Model.Entities.NotaFiscal.pas line 64 BreakPoint at:00661EFC
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 65
+Clearing BreakPoint at 00661F1E
+De-Activate Model.Entities.NotaFiscal.pas line 65 BreakPoint at:00661F1E
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 66
+Clearing BreakPoint at 00661F24
+De-Activate Model.Entities.NotaFiscal.pas line 66 BreakPoint at:00661F24
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 67
+Clearing BreakPoint at 00661F32
+De-Activate Model.Entities.NotaFiscal.pas line 67 BreakPoint at:00661F32
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 40
+Clearing BreakPoint at 00661D8C
+De-Activate Model.Entities.NotaFiscal.pas line 40 BreakPoint at:00661D8C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 41
+Clearing BreakPoint at 00661DAE
+De-Activate Model.Entities.NotaFiscal.pas line 41 BreakPoint at:00661DAE
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 42
+Clearing BreakPoint at 00661DB4
+De-Activate Model.Entities.NotaFiscal.pas line 42 BreakPoint at:00661DB4
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 43
+Clearing BreakPoint at 00661DC2
+De-Activate Model.Entities.NotaFiscal.pas line 43 BreakPoint at:00661DC2
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 106
+Clearing BreakPoint at 00662040
+De-Activate Model.Entities.NotaFiscal.pas line 106 BreakPoint at:00662040
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 107
+Clearing BreakPoint at 00662062
+De-Activate Model.Entities.NotaFiscal.pas line 107 BreakPoint at:00662062
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 108
+Clearing BreakPoint at 00662068
+De-Activate Model.Entities.NotaFiscal.pas line 108 BreakPoint at:00662068
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 109
+Clearing BreakPoint at 00662076
+De-Activate Model.Entities.NotaFiscal.pas line 109 BreakPoint at:00662076
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 52
+Clearing BreakPoint at 00661E44
+De-Activate Model.Entities.NotaFiscal.pas line 52 BreakPoint at:00661E44
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 53
+Clearing BreakPoint at 00661E66
+De-Activate Model.Entities.NotaFiscal.pas line 53 BreakPoint at:00661E66
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 54
+Clearing BreakPoint at 00661E6C
+De-Activate Model.Entities.NotaFiscal.pas line 54 BreakPoint at:00661E6C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 55
+Clearing BreakPoint at 00661E7A
+De-Activate Model.Entities.NotaFiscal.pas line 55 BreakPoint at:00661E7A
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 46
+Clearing BreakPoint at 00661DE8
+De-Activate Model.Entities.NotaFiscal.pas line 46 BreakPoint at:00661DE8
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 47
+Clearing BreakPoint at 00661E0A
+De-Activate Model.Entities.NotaFiscal.pas line 47 BreakPoint at:00661E0A
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 48
+Clearing BreakPoint at 00661E10
+De-Activate Model.Entities.NotaFiscal.pas line 48 BreakPoint at:00661E10
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 49
+Clearing BreakPoint at 00661E1E
+De-Activate Model.Entities.NotaFiscal.pas line 49 BreakPoint at:00661E1E
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 70
+Clearing BreakPoint at 00661F58
+De-Activate Model.Entities.NotaFiscal.pas line 70 BreakPoint at:00661F58
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 71
+Clearing BreakPoint at 00661F61
+De-Activate Model.Entities.NotaFiscal.pas line 71 BreakPoint at:00661F61
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 72
+Clearing BreakPoint at 00661F67
+De-Activate Model.Entities.NotaFiscal.pas line 72 BreakPoint at:00661F67
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 73
+Clearing BreakPoint at 00661F76
+De-Activate Model.Entities.NotaFiscal.pas line 73 BreakPoint at:00661F76
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 171
+Clearing BreakPoint at 006B1002
+De-Activate Model.DAO.NotaFiscal.pas line 171 BreakPoint at:006B1002
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 107
+Clearing BreakPoint at 006B0457
+De-Activate Model.DAO.NotaFiscal.pas line 107 BreakPoint at:006B0457
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 96
+Clearing BreakPoint at 00662000
+De-Activate Model.Entities.NotaFiscal.pas line 96 BreakPoint at:00662000
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 97
+Clearing BreakPoint at 0066200C
+De-Activate Model.Entities.NotaFiscal.pas line 97 BreakPoint at:0066200C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 98
+Clearing BreakPoint at 0066201A
+De-Activate Model.Entities.NotaFiscal.pas line 98 BreakPoint at:0066201A
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 74
+Clearing BreakPoint at 006B0168
+De-Activate Model.DAO.NotaFiscal.pas line 74 BreakPoint at:006B0168
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 75
+Clearing BreakPoint at 006B0179
+De-Activate Model.DAO.NotaFiscal.pas line 75 BreakPoint at:006B0179
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 76
+Clearing BreakPoint at 006B0184
+De-Activate Model.DAO.NotaFiscal.pas line 76 BreakPoint at:006B0184
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 77
+Clearing BreakPoint at 006B0192
+De-Activate Model.DAO.NotaFiscal.pas line 77 BreakPoint at:006B0192
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 110
+Clearing BreakPoint at 006B0554
+De-Activate Model.DAO.NotaFiscal.pas line 110 BreakPoint at:006B0554
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 111
+Clearing BreakPoint at 006B0596
+De-Activate Model.DAO.NotaFiscal.pas line 111 BreakPoint at:006B0596
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 112
+Clearing BreakPoint at 006B05A8
+De-Activate Model.DAO.NotaFiscal.pas line 112 BreakPoint at:006B05A8
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 118
+Clearing BreakPoint at 006B05B6
+De-Activate Model.DAO.NotaFiscal.pas line 118 BreakPoint at:006B05B6
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 58
+Clearing BreakPoint at 00A89ACC
+De-Activate Model.Components.Connections.Firedac.pas line 58 BreakPoint at:00A89ACC
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 59
+Clearing BreakPoint at 00A89B01
+De-Activate Model.Components.Connections.Firedac.pas line 59 BreakPoint at:00A89B01
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 60
+Clearing BreakPoint at 00A89B13
+De-Activate Model.Components.Connections.Firedac.pas line 60 BreakPoint at:00A89B13
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 61
+Clearing BreakPoint at 00A89B32
+De-Activate Model.Components.Connections.Firedac.pas line 61 BreakPoint at:00A89B32
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 120
+Clearing BreakPoint at 006B0600
+De-Activate Model.DAO.NotaFiscal.pas line 120 BreakPoint at:006B0600
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 124
+Clearing BreakPoint at 006B0652
+De-Activate Model.DAO.NotaFiscal.pas line 124 BreakPoint at:006B0652
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 101
+Clearing BreakPoint at 00662020
+De-Activate Model.Entities.NotaFiscal.pas line 101 BreakPoint at:00662020
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 102
+Clearing BreakPoint at 0066202C
+De-Activate Model.Entities.NotaFiscal.pas line 102 BreakPoint at:0066202C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 103
+Clearing BreakPoint at 0066203A
+De-Activate Model.Entities.NotaFiscal.pas line 103 BreakPoint at:0066203A
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 127
+Clearing BreakPoint at 006B0750
+De-Activate Model.DAO.NotaFiscal.pas line 127 BreakPoint at:006B0750
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 128
+Clearing BreakPoint at 006B0776
+De-Activate Model.DAO.NotaFiscal.pas line 128 BreakPoint at:006B0776
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 129
+Clearing BreakPoint at 006B0788
+De-Activate Model.DAO.NotaFiscal.pas line 129 BreakPoint at:006B0788
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 130
+Clearing BreakPoint at 006B0796
+De-Activate Model.DAO.NotaFiscal.pas line 130 BreakPoint at:006B0796
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 86
+Clearing BreakPoint at 00661FC0
+De-Activate Model.Entities.NotaFiscal.pas line 86 BreakPoint at:00661FC0
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 87
+Clearing BreakPoint at 00661FCC
+De-Activate Model.Entities.NotaFiscal.pas line 87 BreakPoint at:00661FCC
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 88
+Clearing BreakPoint at 00661FDA
+De-Activate Model.Entities.NotaFiscal.pas line 88 BreakPoint at:00661FDA
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 133
+Clearing BreakPoint at 006B07CE
+De-Activate Model.DAO.NotaFiscal.pas line 133 BreakPoint at:006B07CE
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 134
+Clearing BreakPoint at 006B0815
+De-Activate Model.DAO.NotaFiscal.pas line 134 BreakPoint at:006B0815
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 76
+Clearing BreakPoint at 00661F80
+De-Activate Model.Entities.NotaFiscal.pas line 76 BreakPoint at:00661F80
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 77
+Clearing BreakPoint at 00661F8C
+De-Activate Model.Entities.NotaFiscal.pas line 77 BreakPoint at:00661F8C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 78
+Clearing BreakPoint at 00661F9A
+De-Activate Model.Entities.NotaFiscal.pas line 78 BreakPoint at:00661F9A
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 91
+Clearing BreakPoint at 00661FE0
+De-Activate Model.Entities.NotaFiscal.pas line 91 BreakPoint at:00661FE0
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 92
+Clearing BreakPoint at 00661FEC
+De-Activate Model.Entities.NotaFiscal.pas line 92 BreakPoint at:00661FEC
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 93
+Clearing BreakPoint at 00661FFA
+De-Activate Model.Entities.NotaFiscal.pas line 93 BreakPoint at:00661FFA
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 81
+Clearing BreakPoint at 00661FA0
+De-Activate Model.Entities.NotaFiscal.pas line 81 BreakPoint at:00661FA0
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 82
+Clearing BreakPoint at 00661FAC
+De-Activate Model.Entities.NotaFiscal.pas line 82 BreakPoint at:00661FAC
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 83
+Clearing BreakPoint at 00661FBA
+De-Activate Model.Entities.NotaFiscal.pas line 83 BreakPoint at:00661FBA
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 112
+Clearing BreakPoint at 0066209C
+De-Activate Model.Entities.NotaFiscal.pas line 112 BreakPoint at:0066209C
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 113
+Clearing BreakPoint at 006620A5
+De-Activate Model.Entities.NotaFiscal.pas line 113 BreakPoint at:006620A5
+Adding coverage:Model.Entities.NotaFiscal.pas (Model.Entities.NotaFiscal) 114
+Clearing BreakPoint at 006620B4
+De-Activate Model.Entities.NotaFiscal.pas line 114 BreakPoint at:006620B4
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 94
+Clearing BreakPoint at 00A89D78
+De-Activate Model.Components.Connections.Firedac.pas line 94 BreakPoint at:00A89D78
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 95
+Clearing BreakPoint at 00A89D84
+De-Activate Model.Components.Connections.Firedac.pas line 95 BreakPoint at:00A89D84
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 96
+Clearing BreakPoint at 00A89D96
+De-Activate Model.Components.Connections.Firedac.pas line 96 BreakPoint at:00A89D96
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 97
+Clearing BreakPoint at 00A89DA1
+De-Activate Model.Components.Connections.Firedac.pas line 97 BreakPoint at:00A89DA1
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 154
+Clearing BreakPoint at 006B0A37
+De-Activate Model.DAO.NotaFiscal.pas line 154 BreakPoint at:006B0A37
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 58
+Clearing BreakPoint at 006AFF58
+De-Activate Model.DAO.NotaFiscal.pas line 58 BreakPoint at:006AFF58
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 59
+Clearing BreakPoint at 006AFF7F
+De-Activate Model.DAO.NotaFiscal.pas line 59 BreakPoint at:006AFF7F
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 60
+Clearing BreakPoint at 006AFF91
+De-Activate Model.DAO.NotaFiscal.pas line 60 BreakPoint at:006AFF91
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 67
+Clearing BreakPoint at 006AFF9F
+De-Activate Model.DAO.NotaFiscal.pas line 67 BreakPoint at:006AFF9F
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 71
+Clearing BreakPoint at 006B005E
+De-Activate Model.DAO.NotaFiscal.pas line 71 BreakPoint at:006B005E
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 181
+Clearing BreakPoint at 006B1154
+De-Activate Model.DAO.NotaFiscal.pas line 181 BreakPoint at:006B1154
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 182
+Clearing BreakPoint at 006B117A
+De-Activate Model.DAO.NotaFiscal.pas line 182 BreakPoint at:006B117A
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 183
+Clearing BreakPoint at 006B118C
+De-Activate Model.DAO.NotaFiscal.pas line 183 BreakPoint at:006B118C
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 202
+Clearing BreakPoint at 006B119A
+De-Activate Model.DAO.NotaFiscal.pas line 202 BreakPoint at:006B119A
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 206
+Clearing BreakPoint at 006B1409
+De-Activate Model.DAO.NotaFiscal.pas line 206 BreakPoint at:006B1409
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 131
+Clearing BreakPoint at 006B07B2
+De-Activate Model.DAO.NotaFiscal.pas line 131 BreakPoint at:006B07B2
+EXCEPTION CODE:0EEDFADE
+Address:7620B4B2
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : FormacaoERPTest.exe Stack frame:006B07CE
+Exact line:Model.DAO.NotaFiscal line 133
+Module : FormacaoERPTest.exe Stack frame:00A8AC25
+Exact line:Model.DAO.NotaFiscal.Test line 118
+Module : FormacaoERPTest.exe Stack frame:005BF6CF
+After line:DUnitX.InternalDataProvider line 17
+Module : FormacaoERPTest.exe Stack frame:00A8ACEB
+Exact line:Model.DAO.NotaFiscal.Test line 121
+Module : FormacaoERPTest.exe Stack frame:005FB15E
+After line:System.DateUtils line 676
+Module : FormacaoERPTest.exe Stack frame:0062B396
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062B671
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062AD9E
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062A9E3
+After line:Model.Entities.NotaFiscal line 40
+No module found for exception address:00B21D75
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL Stack frame:7600FA29
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL - no MAP information exists
+No module found for exception address:77437A7E
+No module found for exception address:77437A4E
+---------------End of Stack trace --------------
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 148
+Clearing BreakPoint at 006B09F5
+De-Activate Model.DAO.NotaFiscal.pas line 148 BreakPoint at:006B09F5
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 150
+Clearing BreakPoint at 006B09F8
+De-Activate Model.DAO.NotaFiscal.pas line 150 BreakPoint at:006B09F8
+Adding coverage:Model.DAO.NotaFiscal.pas (Model.DAO.NotaFiscal) 151
+Clearing BreakPoint at 006B0A05
+De-Activate Model.DAO.NotaFiscal.pas line 151 BreakPoint at:006B0A05
+EXCEPTION CODE:0EEDFADE
+Address:7620B4B2
+EXCEPTION flags:00000001
+---------------Stack trace --------------
+Module : FormacaoERPTest.exe Stack frame:006B0A32
+After line:Model.DAO.NotaFiscal line 154
+Module : FormacaoERPTest.exe Stack frame:00A8AC25
+Exact line:Model.DAO.NotaFiscal.Test line 118
+Module : FormacaoERPTest.exe Stack frame:005BF6CF
+After line:DUnitX.InternalDataProvider line 17
+Module : FormacaoERPTest.exe Stack frame:00A8ACEB
+Exact line:Model.DAO.NotaFiscal.Test line 121
+Module : FormacaoERPTest.exe Stack frame:005FB15E
+After line:System.DateUtils line 676
+Module : FormacaoERPTest.exe Stack frame:0062B396
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062B671
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062AD9E
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062ADCB
+After line:Model.Entities.NotaFiscal line 40
+Module : FormacaoERPTest.exe Stack frame:0062A9E3
+After line:Model.Entities.NotaFiscal line 40
+No module found for exception address:00B21D75
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL Stack frame:7600FA29
+Module : C:\WINDOWS\SysWOW64\KERNEL32.DLL - no MAP information exists
+No module found for exception address:77437A7E
+No module found for exception address:77437A4E
+---------------End of Stack trace --------------
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 87
+Clearing BreakPoint at 00A89D24
+De-Activate Model.Components.Connections.Firedac.pas line 87 BreakPoint at:00A89D24
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 88
+Clearing BreakPoint at 00A89D35
+De-Activate Model.Components.Connections.Firedac.pas line 88 BreakPoint at:00A89D35
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 89
+Clearing BreakPoint at 00A89D46
+De-Activate Model.Components.Connections.Firedac.pas line 89 BreakPoint at:00A89D46
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 90
+Clearing BreakPoint at 00A89D57
+De-Activate Model.Components.Connections.Firedac.pas line 90 BreakPoint at:00A89D57
+Adding coverage:Model.Components.Connections.Firedac.pas (Model.Components.Connections.Firedac) 91
+Clearing BreakPoint at 00A89D65
+De-Activate Model.Components.Connections.Firedac.pas line 91 BreakPoint at:00A89D65
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 119
+Clearing BreakPoint at 00A93B58
+De-Activate Model.Services.NFe.pas line 119 BreakPoint at:00A93B58
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 120
+Clearing BreakPoint at 00A93B64
+De-Activate Model.Services.NFe.pas line 120 BreakPoint at:00A93B64
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 80
+Clearing BreakPoint at 00A938A8
+De-Activate Model.Services.NFe.pas line 80 BreakPoint at:00A938A8
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 81
+Clearing BreakPoint at 00A938C0
+De-Activate Model.Services.NFe.pas line 81 BreakPoint at:00A938C0
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 82
+Clearing BreakPoint at 00A938D4
+De-Activate Model.Services.NFe.pas line 82 BreakPoint at:00A938D4
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 83
+Clearing BreakPoint at 00A938E6
+De-Activate Model.Services.NFe.pas line 83 BreakPoint at:00A938E6
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 84
+Clearing BreakPoint at 00A938F8
+De-Activate Model.Services.NFe.pas line 84 BreakPoint at:00A938F8
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 121
+Clearing BreakPoint at 00A93B7F
+De-Activate Model.Services.NFe.pas line 121 BreakPoint at:00A93B7F
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 37
+Clearing BreakPoint at 00A90388
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 37 BreakPoint at:00A90388
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 38
+Clearing BreakPoint at 00A903AD
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 38 BreakPoint at:00A903AD
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 26
+Clearing BreakPoint at 00A9027C
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 26 BreakPoint at:00A9027C
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 27
+Clearing BreakPoint at 00A902AD
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 27 BreakPoint at:00A902AD
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 28
+Clearing BreakPoint at 00A902BB
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 28 BreakPoint at:00A902BB
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 39
+Clearing BreakPoint at 00A903CB
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 39 BreakPoint at:00A903CB
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 87
+Clearing BreakPoint at 00A93918
+De-Activate Model.Services.NFe.pas line 87 BreakPoint at:00A93918
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 88
+Clearing BreakPoint at 00A9393D
+De-Activate Model.Services.NFe.pas line 88 BreakPoint at:00A9393D
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 89
+Clearing BreakPoint at 00A9394F
+De-Activate Model.Services.NFe.pas line 89 BreakPoint at:00A9394F
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 90
+Clearing BreakPoint at 00A9395D
+De-Activate Model.Services.NFe.pas line 90 BreakPoint at:00A9395D
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 31
+Clearing BreakPoint at 00A902F8
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 31 BreakPoint at:00A902F8
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 32
+Clearing BreakPoint at 00A9031A
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 32 BreakPoint at:00A9031A
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 33
+Clearing BreakPoint at 00A9032C
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 33 BreakPoint at:00A9032C
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 93
+Clearing BreakPoint at 00A93980
+De-Activate Model.Services.NFe.pas line 93 BreakPoint at:00A93980
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 94
+Clearing BreakPoint at 00A9398C
+De-Activate Model.Services.NFe.pas line 94 BreakPoint at:00A9398C
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 95
+Clearing BreakPoint at 00A9399A
+De-Activate Model.Services.NFe.pas line 95 BreakPoint at:00A9399A
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 75
+Clearing BreakPoint at 00A9388C
+De-Activate Model.Services.NFe.pas line 75 BreakPoint at:00A9388C
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 76
+Clearing BreakPoint at 00A93895
+De-Activate Model.Services.NFe.pas line 76 BreakPoint at:00A93895
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 77
+Clearing BreakPoint at 00A9389E
+De-Activate Model.Services.NFe.pas line 77 BreakPoint at:00A9389E
+Adding coverage:Model.Services.NFe.Command.Destinatario.pas (Model.Services.NFe.Command.Destinatario) 34
+Clearing BreakPoint at 00A9035F
+De-Activate Model.Services.NFe.Command.Destinatario.pas line 34 BreakPoint at:00A9035F
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 98
+Clearing BreakPoint at 00A939A0
+De-Activate Model.Services.NFe.pas line 98 BreakPoint at:00A939A0
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 99
+Clearing BreakPoint at 00A939B1
+De-Activate Model.Services.NFe.pas line 99 BreakPoint at:00A939B1
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 100
+Clearing BreakPoint at 00A939BC
+De-Activate Model.Services.NFe.pas line 100 BreakPoint at:00A939BC
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 101
+Clearing BreakPoint at 00A939C7
+De-Activate Model.Services.NFe.pas line 101 BreakPoint at:00A939C7
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 102
+Clearing BreakPoint at 00A939D2
+De-Activate Model.Services.NFe.pas line 102 BreakPoint at:00A939D2
+Adding coverage:Model.Services.NFe.pas (Model.Services.NFe) 103
+Clearing BreakPoint at 00A939E0
+De-Activate Model.Services.NFe.pas line 103 BreakPoint at:00A939E0
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 37
+Clearing BreakPoint at 00A9068C
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 37 BreakPoint at:00A9068C
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 38
+Clearing BreakPoint at 00A906B1
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 38 BreakPoint at:00A906B1
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 26
+Clearing BreakPoint at 00A905DC
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 26 BreakPoint at:00A905DC
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 27
+Clearing BreakPoint at 00A9060D
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 27 BreakPoint at:00A9060D
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 28
+Clearing BreakPoint at 00A9061B
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 28 BreakPoint at:00A9061B
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 39
+Clearing BreakPoint at 00A906CF
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 39 BreakPoint at:00A906CF
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 31
+Clearing BreakPoint at 00A90658
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 31 BreakPoint at:00A90658
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 32
+Clearing BreakPoint at 00A90664
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 32 BreakPoint at:00A90664
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 33
+Clearing BreakPoint at 00A90676
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 33 BreakPoint at:00A90676
+Adding coverage:Model.Services.NFe.Command.EnviarNFe.pas (Model.Services.NFe.Command.EnviarNFe) 34
+Clearing BreakPoint at 00A90686
+De-Activate Model.Services.NFe.Command.EnviarNFe.pas line 34 BreakPoint at:00A90686
+Wait For Debug Event timed-out
+Thread exit:6972
+Thread exit:4352
+Thread exit:544
+Process 16256 exiting. Exit code :0
+Finished processing debug events
+ProcedureReport
+Generating reports
+Generating coverage report
+Source dir: D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\FormacaoERP\src\Model\DAO\
+Output dir: .\report
+Generating xml coverage report
+Finished generating reports
+
+Summary:
+
++-----------+-----------+-----------+
+|   Lines   |  Covered  | Covered % |
++-----------+-----------+-----------+
+|       284 |       191 |      67 % |
++-----------+-----------+-----------+

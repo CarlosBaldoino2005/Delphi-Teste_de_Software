@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/12 04:14:36.000.008,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 07:43:07.000.996,=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 07:44:30.000.713,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\DAO\DAO.NotaFiscal.Test.pas=D:\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 07:44:41.000.504,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\FormacaoERPTest.dproj=D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/17 09:57:22.000.149,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 16:35:46.000.580,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 16:39:08.000.184,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\Commands\Model.Services.NFe.Commands.Emitente.Test.pas</Transaction>
+    <Transaction>2021/07/17 16:55:03.000.962,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 16:56:13.000.915,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Test.pas</Transaction>
+    <Transaction>2021/07/17 16:57:13.000.993,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\Commands\Model.Services.NFe.Commands.Emitente.Test.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Test.pas</Transaction>
+    <Transaction>2021/07/17 16:59:48.000.190,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 17:00:18.000.336,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Test.pas</Transaction>
+    <Transaction>2021/07/17 17:05:19.000.635,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 17:12:59.000.362,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Observers\Model.Services.NFe.Observer.AtualizaNota.Test.pas</Transaction>
+    <Transaction>2021/07/17 17:19:29.000.346,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 17:20:59.000.018,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Mock.pas</Transaction>
+    <Transaction>2021/07/17 17:38:56.000.840,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 17:39:27.000.925,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Mock.pas</Transaction>
+    <Transaction>2021/07/17 17:41:25.000.379,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 17:41:45.000.551,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Mock.pas</Transaction>
+    <Transaction>2021/07/17 17:56:58.000.163,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 18:00:15.000.798,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Command.Enviar.NFe.Mock.pas</Transaction>
+    <Transaction>2021/07/17 18:03:38.000.699,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Command.Enviar.NFe.Mock.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Command.Enviar.NFe.Test.pas</Transaction>
+    <Transaction>2021/07/17 18:23:15.000.822,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Command.Enviar.NFe.Test.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.EnviarNFe.Test.pas</Transaction>
+    <Transaction>2021/07/17 19:18:19.000.313,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas</Transaction>
+    <Transaction>2021/07/17 19:19:42.000.334,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\Unit1.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Model.Services.NFe.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:35:12.000.385,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\DAO\DAO.NotaFiscal.Test.pas=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\DAO\Model.DAO.NotaFiscal.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.890,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Mock.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.875,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.859,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.910,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Mock.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.839,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.927,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.EnviarNFe.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:35:57.000.793,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Mock.pas=</Transaction>
+    <Transaction>2021/07/18 09:36:01.000.646,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Model.Services.NFe.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:36:05.000.729,D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Services\NFe\Observers\Model.Services.NFe.Observer.AtualizaNota.Test.pas=</Transaction>
+    <Transaction>2021/07/18 09:36:34.000.622,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Model.Services.NFe.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.043,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.162,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Mock.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.018,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Mock.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.086,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Mock.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.111,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.136,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.EnviarNFe.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:36:49.000.190,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Test.pas</Transaction>
+    <Transaction>2021/07/18 09:36:58.000.168,=D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\Tests\ProjetoBase\FormacaoTest\src\Model\Services\NFe\Observers\Model.Services.NFe.Observer.AtualizaNota.Test.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="src"/>
+    <File Path="src\Model"/>
+    <File Path="src\Model\DAO"/>
+    <File Path="src\Model\DAO\Model.DAO.NotaFiscal.Test.pas"/>
+    <File Path="src\Model\Services"/>
+    <File Path="src\Model\Services\NFe"/>
+    <File Path="src\Model\Services\NFe\Commands"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Mock.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Destinatario.Test.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Mock.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Emitente.Test.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.EnviarNFe.Test.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Mock.pas"/>
+    <File Path="src\Model\Services\NFe\Commands\Model.Services.NFe.Commands.Ide.Test.pas"/>
+    <File Path="src\Model\Services\NFe\Observers"/>
+    <File Path="src\Model\Services\NFe\Observers\Model.Services.NFe.Observer.AtualizaNota.Test.pas"/>
+    <File Path="src\Model\Services\NFe\Model.Services.NFe.Test.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>

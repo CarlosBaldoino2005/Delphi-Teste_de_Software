@@ -1,0 +1,8 @@
+..\FormacaoERP\src\Model\DAO\
+..\FormacaoERP\src\Model\Entities\
+..\FormacaoERP\src\Model\Components\
+..\FormacaoERP\src\Model\Components\Connections\
+..\FormacaoERP\src\Model\Services\
+..\FormacaoERP\src\Model\Services\NFe\
+..\FormacaoERP\src\Model\Services\NFe\Commands\
+..\FormacaoERP\src\Model\Services\NFe\Observers\

@@ -1,0 +1,33 @@
+unit Model.Services.NFe.Invoker;
+
+interface
+
+uses
+  Model.Services.NFe.Interfaces,
+  System.Generics.Collections;
+
+type TModelServicesNFeInvoker = class(TInterfacedObject, iModelServicesNFeInvoker)
+
+  private
+    FParent: iModelServicesNFe;
+
+  public
+    constructor create(Parent: iModelServicesNFe);
+    class function New(Parent: iModelServicesNFe): iModelServicesNFeInvoker;
+end;
+
+implementation
+
+{ TModelServicesNFeInvoker }
+
+constructor TModelServicesNFeInvoker.create(Parent: iModelServicesNFe);
+begin
+  FParent := Parent;
+end;
+
+class function TModelServicesNFeInvoker.New(Parent: iModelServicesNFe): iModelServicesNFeInvoker;
+begin
+  result := Self.create(Parent);
+end;
+
+end.

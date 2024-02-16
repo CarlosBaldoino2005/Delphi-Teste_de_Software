@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{1D595899-D541-49A3-A99A-D31B55B06039}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FormacaoERP\FormacaoERP.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FormacaoTest\FormacaoERPTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FormacaoERP">
+        <MSBuild Projects="FormacaoERP\FormacaoERP.dproj"/>
+    </Target>
+    <Target Name="FormacaoERP:Clean">
+        <MSBuild Projects="FormacaoERP\FormacaoERP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FormacaoERP:Make">
+        <MSBuild Projects="FormacaoERP\FormacaoERP.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FormacaoERPTest">
+        <MSBuild Projects="FormacaoTest\FormacaoERPTest.dproj"/>
+    </Target>
+    <Target Name="FormacaoERPTest:Clean">
+        <MSBuild Projects="FormacaoTest\FormacaoERPTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FormacaoERPTest:Make">
+        <MSBuild Projects="FormacaoTest\FormacaoERPTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FormacaoERP;FormacaoERPTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FormacaoERP:Clean;FormacaoERPTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FormacaoERP:Make;FormacaoERPTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

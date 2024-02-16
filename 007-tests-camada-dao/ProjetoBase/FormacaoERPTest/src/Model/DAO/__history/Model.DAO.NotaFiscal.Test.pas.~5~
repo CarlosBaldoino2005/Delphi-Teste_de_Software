@@ -1,0 +1,39 @@
+unit Model.DAO.NotaFiscal.Test;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Model.Entities.NotaFiscal,
+  Model.DAO.Interfaces,
+  Model.DAO.NotaFiscal,
+  Model.Components.Connections.Interfaces,
+  Model.Components.Connections.Firedac;
+
+type
+  [TestFixture]
+  TModelDAONotaFiscalTest = class
+  public
+    [Test]
+    procedure ConsultaNotaPeloNumero;
+
+  end;
+
+implementation
+
+{ TModelDAONotaFiscalTest }
+
+procedure TModelDAONotaFiscalTest.ConsultaNotaPeloNumero;
+var
+  dao: iModelDAOEntity<TModelEntitiesNotaFiscal>;
+  connection: iModelComponentsConnections;
+begin
+  connection := TModelComponentsConnectionsFiredac.New;
+  dao := TModelDAONotaFiscal.New(connection);
+
+  dao.Get('numero', '1');
+
+  Assert.AreEqual('40D3E554-99A1-4001-83DF-D7E8BBB85405', dao.This.id);
+end;
+
+end.

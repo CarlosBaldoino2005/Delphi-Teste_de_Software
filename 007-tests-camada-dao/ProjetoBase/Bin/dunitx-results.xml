@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="D:\Desenvolvimento\workspace\Delphi\FormacaoDelphiSenior\TestsGravacao\ProjetoBase\Bin\FormacaoERPTest.exe" total="6" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2021-07-18" time="6.580">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="FormacaoERPTest.exe" executed="true" result="Success" success="True" time="6.580" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="Model" executed="true" result="Success" success="True" time="6.579" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TModelDAONotaFiscalTest" executed="True" result="Success" success="True" time="6.579" >
+                <results>
+                  <test-case name="ConsultaNotaPeloNumero" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                  <test-case name="ConsultaPeloId" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="Insert" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                  <test-case name="Update" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                  <test-case name="Delete" executed="True" result="Success" success="True" time="1.959" asserts="0" />
+                  <test-case name="InsertSemPassarDadosDoEmitente" executed="True" result="Success" success="True" time="4.571" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>

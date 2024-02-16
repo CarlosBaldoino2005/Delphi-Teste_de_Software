@@ -1,0 +1,66 @@
+unit Model.Services.NFe.Commands.Destinatario.Mock;
+
+interface
+
+uses
+  DUnitX.TestFramework,
+  Delphi.Mocks,
+  DAO.Interfaces,
+  Entities.NotaFiscal,
+  Model.Services.NFe.Interfaces,
+  Model.Services.NFe,
+  Model.Services.NFe.Command.Destinatario,
+  System.SysUtils, System.Rtti;
+
+type
+  [TestFixture]
+  TModelServicesNFeCommandsDestinatarioMock = class
+
+  private
+    FNFe: iModelServicesNFe;
+    FCommand: iModelServicesNFeCommand;
+    FNotaFiscal: TEntitiesNotaFiscal;
+
+  public
+    [Setup]
+    procedure Setup;
+
+    [TearDown]
+    procedure TearDown;
+
+    [Test]
+    procedure TestCommand;
+  end;
+
+implementation
+
+{ TModelServicesNFeCommandsDestinatarioMock }
+
+procedure TModelServicesNFeCommandsDestinatarioMock.Setup;
+begin
+  FNFe := TModelServicesNFe.New;
+  FCommand := TModelServicesNFeCommandDestinatario.New(FNFe);
+  FNotaFiscal := TEntitiesNotaFiscal.Create;
+end;
+
+procedure TModelServicesNFeCommandsDestinatarioMock.TearDown;
+begin
+  FreeAndNil(FNotaFiscal);
+end;
+
+procedure TModelServicesNFeCommandsDestinatarioMock.TestCommand;
+var
+  mockDao: TMock<iDAOEntity<TEntitiesNotaFiscal>>;
+begin
+  mockDao := TMock<iDAOEntity<TEntitiesNotaFiscal>>.Create;
+  mockDao.Setup.WillReturn(TValue.From<TEntitiesNotaFiscal>( FNotaFiscal )).When.This;
+
+  FNFe.DAO(mockDao);
+
+  FCommand.Execute;
+
+  Assert.AreEqual('5555', FNFe.Component.DestinatarioCNPJ);
+end;
+
+end.
+
